@@ -1,0 +1,38 @@
+name: "Raider"
+type: flying
+flying: true
+elevation: 0.2
+speed: 0.6
+accel: 0.1
+drag: 0.05
+health: 610
+engineOffset: 1
+range: 60
+weapons: [
+  {
+   name: none
+   y: 0
+   x: 2
+   reload: 2
+   ejectEffect: casing1
+   shootSound: shoot
+   shots: 2
+   spacing: 1
+   inaccuracy: 11
+   bullet: {
+      type: NormalBulletType
+      lifetime: 70
+      speed: 3
+      splashDamageRadius: 3
+      splashDamage: 12
+      damage: 12
+      homingPower: 0
+      homingRange: 999
+      width: 5
+      height: 8
+      status: blasted
+      inaccuracy: 8
+      sprite: bullet
+    }
+  }
+]

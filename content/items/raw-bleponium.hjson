@@ -1,0 +1,4 @@
+name: "Raw Bleponium"
+research: {
+ parent: surge-alloy
+}

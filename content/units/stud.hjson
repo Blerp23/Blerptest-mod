@@ -1,0 +1,24 @@
+name: "Stud"
+health: 30
+speed: 1
+type: mech
+BaseUnit: GroundUnit
+weapons: [
+ {
+  name:studgun1
+  reload: 12
+  shootsound: tshot
+  x:0
+  y:0
+  shots: 3
+  inaccuracy: 4
+  spacing: 1
+  bullet: {
+   type: NormalBulletType
+   damage: 4
+   speed: 2
+   width: 3
+   height: 8
+  }
+ }
+]

@@ -1,0 +1,46 @@
+type: UnitFactory
+size: 3
+name: "Bison Factory"
+solid: false
+destructible: true
+solid: false
+rotate: true
+breakable: true
+rebuildible: true
+health: 300
+configurable: true
+requirements: [
+ silicon/80
+ copper/30
+ graphite/25
+]
+plans: [
+ {
+  unit: needle
+  requirements: [
+   silicon/15
+   copper/10
+  ]
+  time: 80
+ }
+ {
+  unit: rogue
+  requirements: [
+   silicon/15
+   copper/5
+  ]
+  time: 70
+ }
+ {
+  unit:stalagmite
+  requirements: [
+   silicon/20
+   lead/15
+   graphite/10
+   titanium/1
+   ]
+  time: 90
+ }
+]
+category: units
+research: core-shard

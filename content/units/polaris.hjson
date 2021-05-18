@@ -1,0 +1,100 @@
+type: flying
+BaseUnit: FlyingUnit
+name: "Polaris"
+description: "Flying starship. Capital. Powerful and builds rogues."
+hitSize: 60
+health: 72000
+turnSpeed:0.001
+flying: true
+lowAltitude: true
+rotateShooting: false
+engineOffset: 5
+engineSize: 9
+speed: 0.4
+drag: 0.02
+accel: 0.03
+range: 70
+weapons: [
+ {
+ name: none
+   range: 300
+   type: laser
+   x:0
+   y:0
+   reload: 1000
+   shootSound: beam
+   shots: 1
+   bullet: {
+     type: ContinuousLaserBulletType
+     lifetime: 150
+     damage: 100
+     width: 10
+     height: 500
+     status: melting
+    }
+   },
+   {
+   name: pturreta
+   reload: 15
+   x:25
+   y:17
+   shootSound: shoot
+   shots: 2
+   range: 35
+   inaccuracy: 10
+   maxRange: 35
+   rotate: true
+   mirror: true
+   spacing: 1
+   bullet: {
+    damage: 140
+    range: 30
+    lifetime: 30
+    speed: 6
+    width: 5
+    height: 10
+    fragBullet: {
+     type: BasicBulletType
+     width: 3
+     range: 30
+     height: 4
+     speed: 1
+     maxRange: 15
+     damage: 30
+    }
+   }
+  },
+  {
+   name: pturretb
+   reload: 40
+   x: 35
+   y: -35
+   rotate: true
+   rotateSpeed: 1
+   mirror: true
+   shootSound: bigshot
+   type: BurstGunType
+   range: 45
+   pierce: true
+   bullet: {
+    type: BasicBulletType
+    maxRange: 45
+    lifetime: 45
+    speed: 6
+    range: 45
+    width: 10
+    height: 30
+    pierce: true
+    damage: 65
+   }
+  }
+]
+abilities: [
+ {
+  type: UnitSpawnAbility
+  spawnX: 0
+  spawnY: -10
+  unit: rogue
+  spawnTime: 500
+ }
+]

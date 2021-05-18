@@ -1,0 +1,67 @@
+type: flying
+flying: true
+elevation: 0.1
+speed: 2
+drag: 0.01
+accel: 0.1
+name: "Supernova"
+description: "yes."
+weapons: [
+{
+name: none
+x: 0
+y: 0
+ignoreRotation: true
+shootCone: 360
+shootSound: respawn
+reload: 400
+bullet: { 
+	type: BasicBulletType
+	damage: 0
+	lifetime: 0
+	splashDamageRadius: 250
+	splashDamage: 60
+	pierce: false
+	pierceBuilding: true
+	smokeEffect: {
+	sizeFrom: 5
+	type: WaveEffect
+	sizeTo: 250
+	lifetime: 15
+	colorTo: "00c3ff"
+	strokeFrom: 3
+	strokeTo: 1
+	},
+	maxRange: 80
+	statusDuration: 200
+	status: {
+		name: "POW! You are dead! no big surprise."
+		disarm: true
+		speedMultiplier: 0.1
+		damage: 0.5
+		effect: {
+			type: ParticleEffect
+			particles: 2
+			length: 1
+			lifetime: 7
+			sizeFrom: 3
+			sizeTo: 0
+			colorTo: 00c3ff
+		}
+		
+	}
+}
+},
+{
+	reload: 12
+	shootSound: pew
+	alternating: true
+	bullet: {
+		type: NormalBulletType
+		damage: 12
+		speed: 3
+		lifetime: 100
+		
+	}
+}
+]

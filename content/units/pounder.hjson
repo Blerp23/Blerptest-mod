@@ -1,0 +1,38 @@
+name: "Pounder"
+type: flying
+flying: true
+elevation: 0.3
+speed: 1.4
+accel: 0.1
+drag: 0.01
+health: 240
+engineOffset: 2
+range: 20
+weapons: [
+  {
+   name: none
+   y: 0
+   x: 2
+   reload: 50
+   ejectEffect: casing1
+   shootSound: laser
+   shots: 3
+   spacing: 2
+   bullet: {
+      type: LaserBulletType
+      shootSound: laser
+      lifetime: 6
+      speed: 3
+      splashDamageRadius: 3
+      splashDamage: 10
+      damage: 20     
+      homingPower: 0.03
+      homingRange: 999
+      width: 30
+      height: 15
+      status: melting
+      inaccuracy: 3
+      sprite: bullet
+    }
+  }
+]

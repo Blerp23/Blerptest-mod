@@ -1,0 +1,36 @@
+type: flying
+BaseUnit: FlyingUnit
+name: "Rogue"
+speed: 1
+flying: true
+elevation: 1
+accel: 0.05
+drag: 0.02
+health: 150
+range: 40
+weapons: [
+ {
+  name: none
+  y: 0
+  x: 0
+  reload: 50
+  ejectEffect: casing1
+  shootSound: laserBlast
+  shots: 3
+  spacing: 5
+  bullet: {
+   type: BasicBulletTyoe
+   damage: 12
+   speed: 2
+   width: 10
+   height: 15
+   frontColor: fcba03
+   backColor: fc9403
+   status: burning
+   inaccuracy: 0
+   lifetime: 100
+   sprite: bullet
+   incendiary: true
+   }
+  }
+]

@@ -1,0 +1,42 @@
+size: 3
+type: GenericCrafter
+health: 800
+hasItems: true
+hasPower: true
+itemCapacity: 15
+solid: true
+destroyable: true
+requirements: [
+ silicon/200
+ titanium/200
+ phase-fabric/100
+ graphite/150
+ copper/100
+]
+consumes: {
+ items: {
+  items: [
+   {
+     item: raw-bleponium
+     amount: 2
+   },
+   {
+    item: phase-fabric
+    amount: 1
+   },
+   {
+    item: thorium
+    amount: 1 
+   },
+   {
+    item: titanium
+    amount: 2
+   }
+  ]
+ }
+ power: 5
+}
+outputItem: bleponium/1
+craftEffect: impactsmoke
+craftTime: 120
+category: crafting

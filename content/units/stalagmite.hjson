@@ -1,0 +1,43 @@
+type: mech
+BaseUnit: GroundUnit
+name: "Stalagmite"
+speed: 1
+accel: 0.05
+drag: 0.1
+health: 400
+range: 40
+collidesTeam: true
+canBuild: true
+buildSpeed: 1
+canBoost: true
+weapons: [
+ {
+  name: healer1
+  reload: 6
+  ejectEffect: casing1
+  collidesTeam: true
+  shootSound: flak
+  x: 6
+  y: 2
+  shots: 1
+  spacing: 0
+  inaccuracy: 5
+  canHeal: true
+  bullet: {
+   type: NormalBulletType
+   damage: 7
+   speed: 2
+   width: 6
+   height: 12
+   backColor: 03fc5e
+   inaccuracy: 10
+   lifetime: 100
+   sprite: bullet
+   incendiary: true
+   canHeal: true
+   healPercent: 2
+   collidesTeam: true
+   inaccuracy: 10
+   }
+  }
+]

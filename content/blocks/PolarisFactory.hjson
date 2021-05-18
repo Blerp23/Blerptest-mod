@@ -1,0 +1,31 @@
+type: UnitFactory
+size: 15
+health: 10000
+name: "Polaris Factory"
+configurable: true
+requirements: [
+ silicon/1200
+ lead/1000
+ metaglass/200
+ thorium/500
+ bleponium/100
+]
+plans: [
+ {
+  unit: polaris
+  requirements: [
+   lead/1000
+   silicon/1000
+   graphite/800
+   titanium/500
+   thorium/200
+   metaglass/150
+   bleponium/50
+  ]
+  time: 5000
+ }
+]
+category: units
+consumes: {
+ power: 5
+}

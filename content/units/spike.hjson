@@ -1,0 +1,82 @@
+name: "Spike"
+health: 210
+speed: 5
+drag: 0.01
+accel: 0.02
+type: flying
+canBuild: true
+buildSpeed: 1.5
+flying: true
+itemCapacity: 80
+weapons: [
+{
+reload: 100
+ignoreRotation: true
+shootSound: respawn
+shootEffect: none
+canHeal: true
+collidesTeam: true
+x: 0
+y: 0
+bullet: {
+damage: 0
+canHeal: true
+healPercent: 20
+collidesTeam: true
+lifetime: 0
+splashDamage: 30
+splashDamageRadius: 120
+smokeEffect: {
+type: waveEffect
+sizeFrom: 100
+sizeTo: 120
+lifetime: 40
+colorFrom: 03fc1c
+colorTo: 008f0e
+}
+}
+},
+{
+reload: 80
+shootSound: spark
+x: 0
+y: 0
+shots: 4
+bullet: {
+damage: 15
+type: lightningBulletType
+x: 0
+y: 0
+shots: 4
+speed: 2
+lifetime: 100
+splashDamage: 5
+splashDamageRadius: 10
+hitEffect: {
+type: waveEffect
+sizeFrom: 0
+sizeTo: 10
+lifetime: 5
+fragBullet: {
+damage: 1
+lifetime: 40
+}
+}
+}
+}
+]
+abilities: [
+{
+type: RepairFieldAbility
+reload: 50
+range: 100
+amount: 15
+},
+{
+type: ForceFieldAbility
+radius: 35
+regen: 0.2
+max: 30
+cooldown: 70
+}
+]

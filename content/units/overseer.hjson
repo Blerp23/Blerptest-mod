@@ -1,0 +1,61 @@
+type: flying
+name: "Overseer"
+description: "Small drone cruiser. Launches gunboats."
+flying: true
+elevation: 1
+health: 1300
+hitSize: 15
+rotateShooting: true
+speed: 0.8
+drag: 0.01
+accel: 0.02
+engineOffset: 6
+range: 20
+weapons: [
+{
+name: overseermini
+range: 20
+x:0
+y:0
+reload: 50
+rotate: true
+shootSound: shootsmall
+shots: 1
+bullet: {
+	type: NormalBulletType
+	lifetime: 90
+	speed: 4
+	damage: 40
+	pierce: false
+	width: 5
+	height: 13
+	incendAmount: 1
+	fragBullet: {
+		type: BasicBulletType
+		amount: 3
+		splashDamageRadius: 5
+		speed: 2
+		splashDamge: 10
+		damage: 15
+		collidesAir: true
+		collidesGround: true
+		status: blasted
+}
+}
+}
+]
+abilities: [
+{
+	type: UnitSpawnAbility
+	spawnX: 3
+	spawnY: -3
+	unit: gunboatdrone
+	spawnTime: 450
+}
+{
+	type: RepairFieldAbility
+	range: 70
+	amount: 10
+	reload: 30
+}
+]

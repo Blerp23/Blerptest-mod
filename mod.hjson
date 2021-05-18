@@ -1,0 +1,8 @@
+name: "test-mod"
+displayName: "BlerpTestMod"
+author: "Blerp23"
+description: "First mod. May be unstable."
+version: "0.8 Beta"
+minGameVersion: "126.2"
+dependencies: [ ]
+hidden: false

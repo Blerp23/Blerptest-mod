@@ -1,0 +1,11 @@
+type: CoreBlock
+size: 6
+health: 4800
+unitType: "spike"
+itemCapacity: 35000
+unitCapModifier: 30
+requirements: [
+{item: silicon, amount: 3000}
+{item: bleponium, amount: 500}
+]
+category: effect

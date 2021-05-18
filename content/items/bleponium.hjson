@@ -1,0 +1,13 @@
+name: "Bleponium"
+color: 4e7cc8
+charge: 0.2
+radioactivity: 0.05
+research: {
+ parent: raw-bleponium
+ requirements:
+ [
+  {item: titanium, amount: 1000},
+  {item: graphite, amount: 800},
+  {item: raw-bleponium, amount: 100}
+ ]
+}

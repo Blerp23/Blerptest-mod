@@ -1,0 +1,37 @@
+name: "Needle"
+type: flying
+flying: true
+elevation: 1
+speed: 1.7
+accel: 0.1
+drag: 0.01
+health: 135
+engineOffset: 4
+range: 15
+weapons: [
+  {
+   name: none
+   y: 0
+   x: 2
+   reload: 20
+   ejectEffect: casing1
+   shootSound: shoot
+   shots: 1
+   spacing: 0
+   bullet: {
+      type: LaserBulletType
+      lifetime: 4
+      speed: 3
+      splashDamageRadius: 3
+      splashDamage: 15
+      damage: 10
+      homingPower: 0.03
+      homingRange: 999
+      width: 10
+      height: 15
+      status: melting
+      inaccuracy: 0
+      sprite: bullet
+    }
+  }
+]

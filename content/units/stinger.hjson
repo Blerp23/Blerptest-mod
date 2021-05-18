@@ -1,0 +1,37 @@
+name: "Stinger"
+type: flying
+flying: true
+elevation: 0.3
+speed: 1
+accel: 0.2
+drag: 0.01
+health: 450
+engineOffset: 2
+range: 30
+weapons: [
+  {
+   name: none
+   y: 0
+   x: 2
+   reload: 5
+   ejectEffect: casing1
+   shootSound: shot
+   shots: 1
+   spacing: 2
+   bullet: {
+      type: LaserBulletType
+      lifetime: 6
+      speed: 3
+      splashDamageRadius: 3
+      splashDamage: 15
+      damage: 15     
+      homingPower: 0.03
+      homingRange: 999
+      width: 50
+      height: 20
+      status: melting
+      inaccuracy: 20
+      sprite: bullet
+    }
+  }
+]

@@ -1,0 +1,28 @@
+type: flying
+flying: true
+elevation: 1
+health: 140
+speed: 3
+drag: 0.01
+accel: 0.06
+rotateShooting: true
+name: "Star"
+description: "Small fighter, intended for harassing weak things."
+weapons: [
+{
+name: none
+reload: 5
+shootSound: energyShot
+x:3
+y:1
+mirror: true
+bullet:{
+type: laserBulletType
+damage: 4
+status: burning
+incendAmount: 1
+width: 2
+height: 15
+}
+}
+]

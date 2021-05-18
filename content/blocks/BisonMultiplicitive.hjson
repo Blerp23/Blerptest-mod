@@ -1,0 +1,38 @@
+type: Reconstructor
+name: "Bison Multiplicitive"
+health: 400
+size: 4
+itemCapacity: 20
+constructTime: 700
+requirements: [
+ copper/400
+ silicon/500
+ graphite/300
+ titanium/150
+ lead/50
+]
+upgrades: [
+ [pounder, stinger]
+ [bison, raider]
+]
+consumes: {
+ items: {
+  items: [
+   {
+     item: silicon
+     amount: 400
+   },
+   {
+     item: copper
+     amount: 350
+   },
+   {
+     item: titanium
+     amount: 250
+   }
+  ]
+  power: 6
+ }
+}
+category: units
+researched: BisonAdditive

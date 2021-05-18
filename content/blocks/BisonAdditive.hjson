@@ -1,0 +1,32 @@
+type: Reconstructor
+name: "Bison Additive"
+health: 400
+size: 3
+itemCapacity: 20
+constructTime: 500
+requirements: [
+ copper/250
+ silicon/300
+ graphite/150
+]
+upgrades: [
+ [rogue, bison]
+ [needle, pounder]
+]
+consumes: {
+ items: {
+  items: [
+   {
+     item: silicon
+     amount: 150
+   },
+   {
+     item: copper
+     amount: 120
+   }
+  ]
+  power: 3
+ }
+}
+category: units
+researched: BisonFactory
