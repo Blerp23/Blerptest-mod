@@ -17,12 +17,12 @@ y: 0
 rotate: true
 shootSound: spark
 bullet: {
-type: LightningBulletType
+type: LaserBulletType
 canHeal: true
 healPercent: 10
 collidesTeam: true
 width: 2
-height: 10
+height: 15
 damage: 7
 frontColor: 32a852
 backColor: 28d133
