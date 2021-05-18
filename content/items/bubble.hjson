@@ -1,7 +1,7 @@
 name: "Bubble"
 color: ffffff
-description: A very weak bubble. Used in few things, but fucking easy to produce.
-It's a miracle these don't pop when on conveyors.
+description: "A very weak bubble. Used in few things, but fucking easy to produce.
+It's a miracle these don't pop when on conveyors."
 research: {
  parent: copper
 }
