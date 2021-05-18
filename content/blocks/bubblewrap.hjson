@@ -2,4 +2,5 @@ name: "Bubblewrap"
 description: "A cheap wall that is anti-not peircing."
 health: 1
 size: 1
+type: wall
 category: defense
