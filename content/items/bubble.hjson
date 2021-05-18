@@ -1,5 +1,6 @@
 name: "Bubble"
 color: ffffff
+description: A very weak bubble. Used in few things, but fucking easy to produce.
 research: {
  parent: copper
 }
