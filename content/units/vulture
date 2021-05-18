@@ -1,0 +1,32 @@
+type: payload
+flying: true
+elevation: 1
+payloadCapacity: 1
+health: 140
+speed: 3
+accel: 0.1
+drag: 0.1
+name: "Vulture"
+canBuild: true
+buildSpeed: 2
+weapons: [
+{
+reload: 20
+rotate: true
+shootSound: spark
+bullet: {
+type: NormalBulletType
+canHeal: true
+healPercent: 10
+collidesTeam: true
+speed: 4
+damage: 7
+}
+}
+]
+abilities: {
+type: RepairFieldAbility
+amount: 50
+reload: 10
+range: 100
+}
