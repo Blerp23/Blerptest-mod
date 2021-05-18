@@ -4,7 +4,7 @@ description: "A cheap wall that is anti-peircing, but mostly for fun.
 health: 1
 size: 1
 requirements: [
-  copper/1
+  bubble/1
 ]
 type: wall
 category: defense
