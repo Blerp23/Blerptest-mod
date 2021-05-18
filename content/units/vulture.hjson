@@ -1,7 +1,7 @@
 type: payload
 flying: true
 elevation: 1
-payloadCapacity: 1
+payloadCapacity: 100
 health: 140
 speed: 3
 accel: 0.1
