@@ -1,7 +1,7 @@
 name: "test-mod"
 displayName: "BlerpTestMod"
 author: "Blerp23"
-description: "First mod. May be unstable."
+description: "First mod. May be unstable. Our low-quality discord server: https://discord.gg/XwAtgDEEam"
 version: "0.8 Beta"
 minGameVersion: "126.2"
 dependencies: [ ]
