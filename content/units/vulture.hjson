@@ -21,7 +21,8 @@ type: LightningBulletType
 canHeal: true
 healPercent: 10
 collidesTeam: true
-speed: 4
+width: 2
+height: 10
 damage: 7
 frontColor: 32a852
 backColor: 28d133
