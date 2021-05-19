@@ -1,0 +1,38 @@
+type: payload
+payloadCapacity: 500
+flying: true
+elevation: 0.3
+health: 410
+speed: 0.6
+drag: 0.2
+accel: 0.3
+weapons: [
+{
+rotate: true
+x:0
+y:0
+reload: 30
+bullet: {
+type: normalBulletType
+speed: 2
+damage: 12
+splashDamage: 5
+splashDamageRadius: 15
+fragBullet: {
+type: normalBulletType
+speed: 1
+lifetime: 30
+damage: 5
+}
+}
+}
+]
+abilities: [
+{
+type: ForceFieldAbility
+radius: 70
+regen: 0.1
+cooldown: 300
+max: 310
+}
+]
