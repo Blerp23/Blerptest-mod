@@ -10,12 +10,12 @@ weapons: [
   shootsound: tshot
   x:0
   y:0
-  shots: 10
-  inaccuracy: 180
+  shots: 1
+  inaccuracy: 0
   spacing: 1
   bullet: {
    type: NormalBulletType
-   damage: -4
+   damage: -100
    speed: 20
    width: 3
    height: 8
