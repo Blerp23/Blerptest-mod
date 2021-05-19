@@ -1,0 +1,11 @@
+size: 3
+type: reconstructor
+name: "Star additive"
+health: 400
+configurable: true
+requirements: [
+silicon/100
+lead/90
+metaglass/50
+titanium/20
+]
