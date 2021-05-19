@@ -14,15 +14,17 @@ y:0
 reload: 30
 bullet: {
 type: normalBulletType
+shootSound: bigshot
 speed: 2
-damage: 12
-splashDamage: 5
+damage: 17
+splashDamage: 7
 splashDamageRadius: 15
+lifetime: 100
 fragBullet: {
 type: normalBulletType
 speed: 1
 lifetime: 30
-damage: 5
+damage: 10
 }
 }
 }
