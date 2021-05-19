@@ -2,6 +2,8 @@ type: payload
 payloadCapacity: 300
 flying: true
 elevation: 0.3
+canBuild: true
+buildSpeed: 1.2
 health: 610
 speed: 0.6
 drag: 0.2
