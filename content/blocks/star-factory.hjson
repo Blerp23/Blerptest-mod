@@ -1,0 +1,20 @@
+type: unitFactory
+health: 300
+size: 3
+configurable: true
+requirements: [
+copper/150
+silicon/100
+metaglass/100
+]
+plans: [
+{
+unit: vulture
+requirements: [
+silicon/35
+lead/20
+titanium/15
+]
+time: 240
+}
+]
