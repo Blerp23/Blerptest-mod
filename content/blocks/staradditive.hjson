@@ -12,6 +12,7 @@ titanium/20
 ]
 upgrades: [
 [star, supernova]
+[vulture, stronghold]
 ]
 consumes: {
 items: {
