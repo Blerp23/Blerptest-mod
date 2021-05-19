@@ -1,4 +1,8 @@
 name: "joke unit"
+description: "This [red]THING[] deals -100 damage with it's shots.
+
+why'd i make this
+-notMEEPoffaith"
 health: 300000000000000000000000000000000000000000000000000000
 speed: 1
 type: mech
