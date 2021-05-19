@@ -3,9 +3,33 @@ type: reconstructor
 name: "Star additive"
 health: 400
 configurable: true
+constructTime: 650
 requirements: [
 silicon/100
 lead/90
 metaglass/50
 titanium/20
 ]
+upgrades: [
+[star, supernova]
+]
+consumes: {
+items: {
+items: [
+{
+item: silicon
+amount: 210
+},
+{
+item: metaglass
+amount: 90
+},
+{
+item: graphite
+amount: 120
+}
+]
+power: 5
+}
+}
+category: units
