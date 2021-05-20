@@ -1,0 +1,28 @@
+name: "sniper unit"
+description: "This generic sniper unit deals 1000 damage with it's shots.
+
+hehe long range pewpew go brrrrrrrrr
+-notMEEPoffaith"
+health: 140
+speed: 1
+type: mech
+BaseUnit: GroundUnit
+weapons: [
+ {
+  name:snipergun
+  reload: 120
+  shootsound: tshot
+  x:0
+  y:0
+  shots: 1
+  inaccuracy: 0
+  spacing: 1
+  bullet: {
+   type: NormalBulletType
+   damage: 1000
+   speed: 20
+   width: 20
+   height: 25
+  }
+ }
+]
