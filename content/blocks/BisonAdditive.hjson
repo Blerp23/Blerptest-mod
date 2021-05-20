@@ -30,3 +30,4 @@ consumes: {
 }
 category: units
 researched: BisonFactory
+research: BisonFactory
