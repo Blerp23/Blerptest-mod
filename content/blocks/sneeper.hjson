@@ -15,13 +15,14 @@ pyratite: {
 type: artilleryBulletType
 shootSound: bigshot
 speed: 4
-damage: 18
-splashDamage: 7
+damage: 35
+splashDamage: 10
 splashDamageRadius: 10
 incendAmount: 1
 reloadTime: 60
 width: 3
 height: 4
+status: burning
 frontColor: fc890d
 backColor: fcc40d
 }
@@ -29,8 +30,8 @@ blast-compound: {
 type: artilleryBulletType
 shootsound: bigshot
 speed: 3
-damage: 19
-splashDamage: 12
+damage: 25
+splashDamage: 30
 splashDamageRadius: 60
 reloadTime: 65
 width: 4
@@ -40,10 +41,10 @@ surge-alloy: {
 type: artilleryBulletType 
 shootSound: bigshot 
 speed: 4
-damage: 10
+damage: 25
 lightningColor: ffda24
 lightning: 5
-lightningDamage: 15
+lightningDamage: 19
 lightningLength: 8
 lightningLengthRand: 10
 reloadTime: 60
