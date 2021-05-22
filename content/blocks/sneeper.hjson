@@ -21,3 +21,6 @@ splashDamageRadius: 10
 incendAmount: 1
 }
 }
+category: turrets
+researched: hail
+research: ripple
