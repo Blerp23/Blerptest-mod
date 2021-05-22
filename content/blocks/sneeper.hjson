@@ -16,7 +16,7 @@ type: artilleryBulletType
 shootSound: bigshot
 speed: 4
 damage: 35
-splashDamage: 10
+splashDamage: 45
 splashDamageRadius: 10
 incendAmount: 1
 reloadTime: 60
@@ -31,8 +31,8 @@ type: artilleryBulletType
 shootsound: bigshot
 speed: 3
 damage: 25
-splashDamage: 30
-splashDamageRadius: 60
+splashDamage: 55
+splashDamageRadius: 100
 reloadTime: 65
 width: 4
 height: 5
