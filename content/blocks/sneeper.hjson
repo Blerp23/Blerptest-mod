@@ -20,6 +20,10 @@ splashDamage: 7
 splashDamageRadius: 10
 incendAmount: 1
 reloadTime: 60
+width: 3
+height: 4
+frontColor: fc890d
+backColor: fcc40d
 }
 }
 category: turret
