@@ -41,8 +41,11 @@ type: artilleryBulletType
 shootSound: bigshot 
 speed: 4
 damage: 10
+lightningColor: ffda24
+lightning: 5
 lightningDamage: 15
-lightningRange: 15
+lightningLength: 8
+lightningLengthRand: 10
 reloadTime: 60
 width: 5
 height: 6
