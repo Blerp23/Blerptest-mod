@@ -1,0 +1,12 @@
+type: PowerNode
+name: Electrowall™
+description: "A wall that transmits power."
+size: 1
+laserRange: 0
+maxNodes: 0
+requirements: [
+  copper/6
+  lead/2
+]
+category: power
+research: burner
