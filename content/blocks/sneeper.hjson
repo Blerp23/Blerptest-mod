@@ -2,7 +2,7 @@ size: 2
 health: 420
 type: itemTurret
 range: 400
-reliadTime: 100
+reloadTime: 60
 shootSound: bigshot
 requirements: [
 copper/100
@@ -19,7 +19,7 @@ damage: 18
 splashDamage: 7
 splashDamageRadius: 10
 incendAmount: 1
-reload: 60
+reloadTime: 60
 }
 }
 category: turret
