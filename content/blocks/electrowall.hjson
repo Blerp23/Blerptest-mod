@@ -2,6 +2,7 @@ type: PowerNode
 name: Electrowall™
 description: "A wall that transmits power."
 size: 1
+health: 300
 laserRange: 0
 maxNodes: 0
 requirements: [
@@ -9,4 +10,3 @@ requirements: [
   lead/2
 ]
 category: power
-research: burner
