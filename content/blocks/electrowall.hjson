@@ -6,7 +6,6 @@ health: 300
 laserRange: 0
 maxNodes: 1
 requirements: [
-  copper/6
-  lead/2
+  copper/8
 ]
 category: power
