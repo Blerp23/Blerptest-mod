@@ -1,7 +1,7 @@
 size: 2
 health: 420
 type: itemTurret
-range: 60
+range: 400
 reliadTime: 100
 shootSound: bigshot
 requirements: [
