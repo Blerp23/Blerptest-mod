@@ -5,7 +5,7 @@ size: 1
 health: 300
 laserRange: 0
 maxNodes: 1
-requirements[
+requirements: [
   copper/6
   lead/2
 ]
