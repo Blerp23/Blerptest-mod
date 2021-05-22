@@ -31,10 +31,21 @@ shootsound: bigshot
 speed: 3
 damage: 19
 splashDamage: 12
-splashDamageRadius: 30
+splashDamageRadius: 60
 reloadTime: 65
 width: 4
 height: 5
+}
+surge-alloy: {
+type: artilleryBulletType 
+shootSound: bigshot 
+speed: 4
+damage: 10
+lightningDamage: 15
+lightningRange: 15
+reloadTime: 60
+width: 5
+height: 6
 }
 }
 category: turret
