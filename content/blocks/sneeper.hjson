@@ -14,7 +14,7 @@ ammoTypes: {
 pyratite: {
 type: artilleryBulletType
 shootSound: bigshot
-speed: 5
+speed: 4
 damage: 18
 splashDamage: 7
 splashDamageRadius: 10
@@ -24,6 +24,17 @@ width: 3
 height: 4
 frontColor: fc890d
 backColor: fcc40d
+}
+blast-compound: {
+type: artilleryBulletType
+shootsound: bigshot
+speed: 3
+damage: 19
+splashDamage: 12
+splashDamageRadius: 30
+reloadTime: 65
+width: 4
+height: 5
 }
 }
 category: turret
