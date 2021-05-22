@@ -19,6 +19,7 @@ damage: 18
 splashDamage: 7
 splashDamageRadius: 10
 incendAmount: 1
+reload: 60
 }
 }
 category: turret
