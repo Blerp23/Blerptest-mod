@@ -43,4 +43,5 @@ plans: [
  }
 ]
 category: units
-research: core-shard
+research: ground-factory
+researched: dagger
