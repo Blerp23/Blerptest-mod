@@ -3,8 +3,8 @@ size: 2
 name: "Tracing Slag Collider"
 description: "Searches for traces of Raw Bleponium inside scrap."
 type: Separator
-spinnerSpeed: 3
-craftTime: 60
+spinnerSpeed: 4
+craftTime: 10
 hasItems: true
 hasLiquids: true
 hasPower: true
