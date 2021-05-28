@@ -1,0 +1,34 @@
+health: 200
+size: 2
+name: "Tracing Slag Collider"
+description: "Searches for traces of Raw Bleponium inside scrap."
+type: Separator
+spinnerSpeed: 3
+craftTime: 60
+hasItems: true
+hasLiquids: true
+hasPower: true
+consumes: {
+power: 2
+liquid: {
+liquid: slag
+amount: 0.6
+}
+}
+requirements: {
+lead/50
+silicon/80
+titanium/60
+plastanium/20
+metaglass/60
+}
+results: [
+{item: graphite, amount: 3}
+{item: raw-bleponium, amount: 1}
+{item: copper, amount: 10}
+{item: sand, amount: 12}
+{item: coal, amount: 6}
+]
+category: crafting
+research: seperator
+researched: bubble
