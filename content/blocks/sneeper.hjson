@@ -5,6 +5,8 @@ type: itemTurret
 range: 400
 reloadTime: 60
 shootSound: bigshot
+targetAir: false
+targetGround: true
 requirements: [
 copper/100
 metaglass/60
