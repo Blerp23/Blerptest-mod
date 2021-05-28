@@ -15,13 +15,13 @@ liquid: slag
 amount: 0.6
 }
 }
-requirements: {
-lead/50
-silicon/80
-titanium/60
-plastanium/20
-metaglass/60
-}
+requirements: [
+{item: lead, amount: 50}
+{item: silicon, amount:80}
+{item: titanium, amount: 60}
+{item: plastanium, amount: 20}
+{item: metaglass, amount: 60}
+]
 results: [
 {item: graphite, amount: 3}
 {item: raw-bleponium, amount: 1}
