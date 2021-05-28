@@ -1,4 +1,5 @@
 size: 2
+name: "Sneeper"
 health: 420
 type: itemTurret
 range: 400
@@ -50,6 +51,23 @@ lightningLengthRand: 10
 reloadTime: 60
 width: 5
 height: 6
+}
+bleponium: {
+type: artilleryBulletType
+shootSound: bigshot
+speed: 3
+damage: 17
+reloadTime: 50
+frontColor: 0894ff
+backColor: 085aff
+width: 6
+height: 7
+fragBullet: {
+lifetime: 10
+damage: 4
+frontColor: 0894ff
+backColor: 085aff
+}
 }
 }
 category: turret
