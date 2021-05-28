@@ -1,4 +1,7 @@
 name: "Raw Bleponium"
+charge: 0.1
+radioactivity: 0.01
+description: "Said to come from the scraps of ancient civilization. Perhaps you can harness some power."
 research: {
  parent: surge-alloy
 }
