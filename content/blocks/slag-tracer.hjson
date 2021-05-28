@@ -30,5 +30,5 @@ results: [
 {item: coal, amount: 6}
 ]
 category: crafting
-research: Separator
-researched: bubble
+research: separator
+researched: separator
