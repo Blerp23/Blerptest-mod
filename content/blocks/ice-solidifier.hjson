@@ -11,10 +11,9 @@ lead/150,
 copper/100,
 coal/10
 ]
-craftTime: 15
+craftTime: 50
 itemCapactiy: 5
-effects: [
-{
+craftEffect: {
 type: WaveEffect
 lifetime: 10
 sides: 3
@@ -25,7 +24,6 @@ strokeTo: 0
 colorFrom: d8d8d8
 colorTo: d8d8d8
 }
-]
 consumes: {
 liquid: {
 liquid: water
