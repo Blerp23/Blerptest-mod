@@ -1,0 +1,5 @@
+name: "Ice"
+color: d8d8d8
+research: {
+parent: water
+}
