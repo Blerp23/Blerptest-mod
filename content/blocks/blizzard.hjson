@@ -1,0 +1,48 @@
+size: 2
+health: 610
+type: itemTurret
+range: 170
+reloadTime: 4
+shootSound: flame
+inaccuracy: 6
+requirements: [
+lead: 70
+ice/120
+coal/30
+]
+ammoTypes: {
+ice: {
+type: artilleryBulletType
+shootSound: flame
+speed: 2
+damage: 6
+splashDamage: 7
+splashDamageRadius: 8
+reloadTime: 4
+inaccuracy: 6
+width: 10
+height: 12
+frontColor: d2dde9
+backColor: d2dde9
+shootEffect: {
+type: ParticleEffect
+particles: 15
+sizeFrom: 3
+sizeTo: 0
+length: 160
+lifetime: 100
+cone: 8
+colorFrom: e0e0e0
+colorTo: e0e0e0
+}
+}
+}
+category: turret
+research: {
+parent: snowflake
+requirements: [
+{item: ice, amount: 700}
+{item: lead, amount: 600}
+{item: coal, amount: 200}
+]
+}
