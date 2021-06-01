@@ -6,7 +6,7 @@ reloadTime: 4
 shootSound: flame
 inaccuracy: 6
 requirements: [
-lead: 70
+lead/70
 ice/120
 coal/30
 ]
