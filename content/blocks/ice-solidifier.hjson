@@ -16,8 +16,8 @@ itemCapactiy: 5
 craftEffect: {
 type: WaveEffect
 lifetime: 10
-sides: 3
-sizeFrom: 20
+sides: 5
+sizeFrom: 8
 sizeTo: 0
 strokeFrom: 7
 strokeTo: 0
