@@ -1,0 +1,37 @@
+size: 2
+research: water
+researched: water
+health: 120
+type: GenericCrafter
+name: "Ice Solidifier"
+description: "Uses water and solidifies Ice to be used as ammo and material. Logical, right?"
+category: crafting
+requirements: [
+lead/150,
+copper/100,
+coal/10
+]
+craftTime: 15
+itemCapactiy: 5
+effects: [
+{
+type: WaveEffect
+lifetime: 10
+sides: 3
+sizeFrom: 20
+sizeTo: 0
+strokeFrom: 7
+strokeTo: 0
+colorFrom: d8d8d8
+colorTo: d8d8d8
+}
+]
+consumes: {
+liquid: {
+liquid: water
+amount: 0.3
+}
+}
+category: crafting
+research: water
+outputItem: ice/2
