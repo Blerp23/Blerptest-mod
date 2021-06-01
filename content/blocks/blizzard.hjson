@@ -37,7 +37,7 @@ colorTo: e0e0e0
 }
 }
 }
-category: weapons
+category: turret
 research: {
 parent: snowflake
 requirements: [
