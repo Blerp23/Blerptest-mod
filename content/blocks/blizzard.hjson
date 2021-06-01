@@ -35,6 +35,21 @@ lifetime: 100
 cone: 8
 colorFrom: e0e0e0
 colorTo: e0e0e0
+statusDuration: 210
+}
+status: {
+name: "B R R R"
+speedMultiplier: 0.6
+reloadMultiplier: 0.6
+effect: {
+type: ParticleEffect
+particles: 3
+length: 2
+lifetime: 21
+sizeFrom: 2
+sizeTo: 0
+colorTo: e0e0e0
+}
 }
 }
 }
