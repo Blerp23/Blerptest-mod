@@ -3,8 +3,9 @@ name: "Snowflake"
 health: 70
 type: itemTurret
 range: 70
-reloadTime: 10
-shootSound: fire
+reloadTime: 3
+shootSound: flame
+inaccuracy: 10
 requirements: [
 lead/30
 ice/15
@@ -12,16 +13,17 @@ ice/15
 ammoTypes: {
 ice: {
 type: normalBulletType
-shootSound: fire
+shootSound: flame
 speed: 2
-damage: 4
+damage: 2
 splashDamage: 2
 splashDamageRadius: 5
-reloadTime: 10
+reloadTime: 3
 width: 6
 height: 6
 frontColor: e0e0e0
 backColor: e0e0e0
+inaccuracy: 10
 }
 }
 category: turret
