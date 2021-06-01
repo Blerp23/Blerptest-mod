@@ -1,0 +1,32 @@
+type: flying
+flying: true
+lowAltitude: true
+speed: 1
+accel: 0.1
+drag: 0.06
+health: 310
+range: 20
+weapons: [
+{
+name: none
+x: 3
+y: 3
+reload: 7
+shootSound: flame
+shots: 2
+inaccuracy: 10
+bullet: {
+type: normalBulletType
+damage: 3
+splashDamage: 4
+splashDamageRadius: 7
+speed: 3
+width: 1
+height: 1
+lifetime: 12
+backColor: d8d8d8
+frontColor: d8d8d8
+inaccuracy: 10
+}
+}
+]
