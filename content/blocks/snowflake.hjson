@@ -2,7 +2,7 @@ size: 1
 name: "Snowflake" 
 health: 70
 type: itemTurret
-range: 70
+range: 50
 reloadTime: 3
 shootSound: flame
 inaccuracy: 10
@@ -15,8 +15,8 @@ ice: {
 type: normalBulletType
 shootSound: flame
 speed: 2
-damage: 2
-splashDamage: 2
+damage: 3
+splashDamage: 3
 splashDamageRadius: 5
 reloadTime: 3
 width: 6
@@ -24,6 +24,18 @@ height: 6
 frontColor: e0e0e0
 backColor: e0e0e0
 inaccuracy: 10
+lifetime: 40
+shootEffect: {
+type: ParticleEffect
+particles: 20
+sizeFrom: 3
+sizeTo: 1
+length: 100
+lifetime: 50
+cone: 12
+colorFrom: e0e0e0
+colorTo: e0e0e0
+}
 }
 }
 category: turret
