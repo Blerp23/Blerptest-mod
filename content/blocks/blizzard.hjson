@@ -17,7 +17,7 @@ type: artilleryBulletType
 shootSound: flame
 speed: 2
 damage: 10
-splashDamage: 27
+splashDamage: 30
 splashDamageRadius: 8
 reloadTime: 4
 inaccuracy: 6
