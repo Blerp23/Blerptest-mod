@@ -24,8 +24,8 @@ speed: 3
 width: 1
 height: 1
 lifetime: 12
-backColor: d8d8d8
 frontColor: d8d8d8
+backColor: d8d8d8
 inaccuracy: 10
 shootEffect: {
 type: ParticleEffect
