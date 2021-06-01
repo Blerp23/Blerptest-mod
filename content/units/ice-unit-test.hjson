@@ -27,6 +27,16 @@ lifetime: 12
 backColor: d8d8d8
 frontColor: d8d8d8
 inaccuracy: 10
+shootEffect: {
+type: ParticleEffect
+sizeFrom: 2
+sizeTo: 0
+colorFrom: d8d8d8
+colorTo: d8d8d8
+lifetime: 40
+length: 60
+cone: 3
+}
 }
 }
 ]
