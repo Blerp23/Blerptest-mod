@@ -4,6 +4,7 @@ type: itemTurret
 range: 170
 reloadTime: 4
 shootSound: flame
+targetAir: false
 inaccuracy: 6
 requirements: [
 lead/70
@@ -15,8 +16,8 @@ ice: {
 type: artilleryBulletType
 shootSound: flame
 speed: 2
-damage: 6
-splashDamage: 7
+damage: 10
+splashDamage: 27
 splashDamageRadius: 8
 reloadTime: 4
 inaccuracy: 6
