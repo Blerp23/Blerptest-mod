@@ -35,3 +35,10 @@ weapons: [
     }
   }
 ]
+research: {
+parent: BisonFactory
+requirements: [
+silicon/600
+copper/800
+]
+}
