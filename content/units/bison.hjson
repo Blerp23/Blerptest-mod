@@ -35,3 +35,10 @@ weapons: [
     }
   }
 ]
+research: {
+parent: rogue
+requirements:[
+silicon/1200
+copper/1500
+]
+}
