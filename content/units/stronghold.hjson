@@ -40,3 +40,11 @@ cooldown: 300
 max: 310
 }
 ]
+research: {
+parent: vulture
+requirements: [
+silicon/2000
+metaglass/1000
+graphite/1500
+]
+}
