@@ -26,3 +26,11 @@ height: 15
 }
 }
 ]
+research: {
+parent: star-factory
+requirements: [
+silicon/600
+lead/400
+metaglass/200
+]
+}
