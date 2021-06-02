@@ -35,3 +35,11 @@ amount: 50
 reload: 10
 range: 100
 }
+research: {
+parent: star-factory
+requirements: [
+silicon/500
+lead/600
+titanium/400
+]
+}
