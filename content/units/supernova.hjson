@@ -65,3 +65,12 @@ bullet: {
 	}
 }
 ]
+research: {
+parent: star
+requirements: [
+silicon/2000
+lead/2100
+titanium/1500
+metaglass/1000
+]
+}
