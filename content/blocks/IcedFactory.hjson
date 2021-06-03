@@ -1,0 +1,23 @@
+size: 3
+name: "Iced Factory"
+type: UnitFactory
+health: 600
+requirements: [
+ice/60
+copper/40
+lead/20
+coal/25
+]
+configurable: true
+plans: [
+ {
+  unit: flurry
+  requirements: [
+   ice/60
+   copper/30
+   coal/10
+  ]
+  time: 180
+ }
+]
+
