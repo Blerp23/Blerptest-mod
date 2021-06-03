@@ -20,4 +20,13 @@ plans: [
   time: 180
  }
 ]
-
+category: units
+research: {
+parent: snowflake
+requirements: [
+ice/6000
+copper/4000
+lead/2000
+coal/1000
+]
+}
