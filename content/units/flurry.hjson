@@ -40,3 +40,11 @@ cone: 3
 }
 }
 ]
+research: {
+parent: IcedFactory
+requirements: [
+ice/6000
+copper/4000
+coal/900
+]
+}
