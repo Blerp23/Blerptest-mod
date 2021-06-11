@@ -6,6 +6,7 @@ health: 450
 weapons: [
 {
 x: 0
+reload: 6
 y: 2
 mirror: false
 shootSound: flame
