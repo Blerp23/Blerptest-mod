@@ -24,7 +24,7 @@ requirements: [
 ]
 results: [
 {item: graphite, amount: 3}
-{item: raw-bleponium, amount: 1}
+{item: raw-bleponium, amount: 3}
 {item: copper, amount: 10}
 {item: sand, amount: 12}
 {item: coal, amount: 6}
