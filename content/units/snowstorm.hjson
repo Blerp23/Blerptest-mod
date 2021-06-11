@@ -1,0 +1,36 @@
+name: "Snowstorm"
+type: flying
+flying: true
+lowAltitude: true
+health: 450
+weapons: [
+{
+x: 0
+y: 2
+mirror: false
+shootSound: flame
+shots: 3
+inaccuracy: 8
+bullet: {
+type: normalBulletType
+damage: 5
+splashDamage: 7
+splashDamageRadius: 8
+speed: 2
+width: 1
+height: 1
+lifetime: 40
+frontColor: d8d8d8
+backColor: d8d8d8
+shootEffect: {
+type: particleEffect
+colorTo: d8d8d8
+sizeFrom: 3
+sizeTo: 0
+lifetime: 30
+length: 40
+cone: 4
+}
+}
+}
+]
