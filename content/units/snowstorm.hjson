@@ -32,7 +32,7 @@ sizeTo: 0
 lifetime: 30
 length: 40
 cone: 4
-range: 30
+range: 80
 }
 }
 }
