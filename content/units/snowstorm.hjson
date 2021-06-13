@@ -23,6 +23,7 @@ height: 1
 lifetime: 40
 frontColor: d8d8d8
 backColor: d8d8d8
+hitEffect: 0
 shootEffect: {
 type: particleEffect
 colorTo: d8d8d8
@@ -31,6 +32,7 @@ sizeTo: 0
 lifetime: 30
 length: 40
 cone: 4
+range: 30
 }
 }
 }
