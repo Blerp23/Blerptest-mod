@@ -2,7 +2,7 @@ name: "test-mod"
 displayName: "BlerpTestMod"
 author: "Blerp23"
 description: "Our first mod, we are working on making the sprites less... heresy...  (We have a discord server, https://discord.gg/EEn5nWactX)"
-version: "0.9 Beta"
+version: "0.92 Beta"
 minGameVersion: "126.2"
 dependencies: [ ]
 hidden: false
