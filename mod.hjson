@@ -1,7 +1,7 @@
 name: "test-mod"
 displayName: "BlerpTestMod"
 author: "Blerp23"
-description: "First mod. May be unstable. Our low-quality discord server: https://discord.gg/XwAtgDEEam"
+description: "Our first mod, we are working on making the sprites less... heresy...  (We have a discord server, https://discord.gg/EEn5nWactX)"
 version: "0.9 Beta"
 minGameVersion: "126.2"
 dependencies: [ ]
