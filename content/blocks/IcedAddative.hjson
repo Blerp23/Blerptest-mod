@@ -1,0 +1,23 @@
+size: 3
+health: 650
+type: Reconstructor
+configurable: true
+constructTime: 1500
+requirements: [
+ice/300
+lead/250
+silicon/120
+]
+upgrades: [
+[flurry, snowstorm]
+]
+consumes: {
+items: {
+ice/100
+silicom/90
+lead/80
+}
+}
+category: units
+research: IcedFactory
+researched: IcedFactory
