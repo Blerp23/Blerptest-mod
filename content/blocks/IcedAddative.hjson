@@ -12,11 +12,22 @@ upgrades: [
 [flurry, snowstorm]
 ]
 consumes: {
+items: {
 items: [
-ice/100
-silicom/90
-lead/80
+{
+item: ice
+amount: 80
+},
+{
+item: silicon
+amount: 70
+}
+{
+item: lead
+amount: 65
+}
 ]
+}
 }
 category: units
 research: IcedFactory
