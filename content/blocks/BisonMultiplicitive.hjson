@@ -1,6 +1,7 @@
 type: Reconstructor
 name: "Bison Multiplicitive"
 health: 400
+description: Upgrades units to their third tier. Awkwardly sized.
 size: 4
 itemCapacity: 20
 constructTime: 700

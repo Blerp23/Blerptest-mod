@@ -1,6 +1,7 @@
 type: Reconstructor
 name: "Bison Additive"
 health: 400
+description: Upgrades units to their second tier.
 size: 3
 itemCapacity: 20
 constructTime: 500

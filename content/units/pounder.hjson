@@ -1,4 +1,5 @@
 name: "Pounder"
+description: Fires three lasers that apply melting at enemies.
 type: flying
 flying: true
 elevation: 0.3

@@ -1,4 +1,5 @@
 name: "Needle"
+description: Fires a laser that applies melting at enemies.
 type: flying
 flying: true
 elevation: 1
