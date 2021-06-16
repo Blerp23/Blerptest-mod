@@ -1,5 +1,6 @@
 name: "Bleponium"
-color: 4e7cc8
+color: 486acdff
+description: Refined metal that was originally found as scraps. Emits a slight electric charge.
 charge: 0.2
 radioactivity: 0.05
 research: {

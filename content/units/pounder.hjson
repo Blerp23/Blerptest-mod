@@ -7,7 +7,8 @@ speed: 1.4
 accel: 0.1
 drag: 0.01
 health: 240
-engineOffset: 2
+engineOffset: 10
+hitSize: 10
 range: 20
 weapons: [
   {
@@ -34,6 +35,7 @@ weapons: [
       status: melting
       inaccuracy: 3
       sprite: bullet
+	  recoil: 1
     }
   }
 ]

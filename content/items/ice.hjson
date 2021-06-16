@@ -1,5 +1,6 @@
 name: "Ice"
-color: d8d8d8
+color: e9ebff
+description: Fragile chunks of ice found on the surface. At least they don't break when being stored.
 research: {
 parent: water
 }

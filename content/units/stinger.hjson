@@ -7,7 +7,9 @@ speed: 1
 accel: 0.2
 drag: 0.01
 health: 450
-engineOffset: 2
+engineOffset: 13
+engineSize: 7.5
+hitSize: 22
 range: 30
 weapons: [
   {
@@ -16,7 +18,8 @@ weapons: [
    x: 2
    reload: 5
    ejectEffect: casing1
-   shootSound: shot
+   shootSound: bigshot
+   inaccuracy: 3
    shots: 1
    spacing: 2
    bullet: {
@@ -33,6 +36,7 @@ weapons: [
       status: melting
       inaccuracy: 20
       sprite: bullet
+	  recoil: 0.1
     }
   }
 ]
