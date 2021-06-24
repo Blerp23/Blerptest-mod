@@ -1,4 +1,5 @@
 name: "Needle"
+description: Fires a laser that applies melting at enemies.
 type: flying
 flying: true
 elevation: 1
@@ -6,7 +7,7 @@ speed: 1.7
 accel: 0.1
 drag: 0.01
 health: 135
-engineOffset: 4
+engineOffset: 6
 range: 15
 weapons: [
   {
@@ -32,6 +33,7 @@ weapons: [
       status: melting
       inaccuracy: 0
       sprite: bullet
+	  recoil: 0.25
     }
   }
 ]

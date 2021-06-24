@@ -1,5 +1,5 @@
 size: 1
-name: "Snowflake" 
+localizedName: Snowflake
 health: 300
 type: itemTurret
 range: 50
@@ -25,6 +25,10 @@ frontColor: e0e0e0
 backColor: e0e0e0
 inaccuracy: 10
 lifetime: 40
+despawnEffect: none
+hitEffect: none
+pierce: true
+pierceBuilding: true
 shootEffect: {
 type: ParticleEffect
 particles: 20

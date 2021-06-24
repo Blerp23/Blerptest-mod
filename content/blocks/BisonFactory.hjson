@@ -1,6 +1,7 @@
 type: UnitFactory
 size: 3
 name: "Bison Factory"
+description: Basic factory that makes three different types of units.
 solid: false
 destructible: true
 solid: false

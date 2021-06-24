@@ -1,5 +1,7 @@
 type: CoreBlock
 size: 6
+description: Large core designed to sustain high amounts of damage and can contain an extreme amount of items.
+details: A third-party core. The core unit is able to heal ally buildings.
 health: 4800
 unitType: "spike"
 itemCapacity: 35000

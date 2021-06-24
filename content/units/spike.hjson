@@ -1,5 +1,6 @@
 name: "Spike"
 health: 210
+description: Guardian of the Blerp Republic Core. Builds and can easily repair blocks.
 speed: 5
 drag: 0.01
 accel: 0.02
@@ -28,12 +29,17 @@ splashDamage: 30
 splashDamageRadius: 120
 smokeEffect: {
 type: waveEffect
-sizeFrom: 100
+sizeFrom: 0
 sizeTo: 120
 lifetime: 40
-colorFrom: 03fc1c
-colorTo: 008f0e
+colorFrom: 84f491ff
+colorTo: 84f491ff
+layer: 110
+lifetime: 10
 }
+despawnEffect: none
+shootEffect: none
+hitEffect: none
 }
 },
 {
@@ -52,6 +58,7 @@ speed: 2
 lifetime: 100
 splashDamage: 5
 splashDamageRadius: 10
+buildingDamageMultiplier: 0.01
 hitEffect: {
 type: waveEffect
 sizeFrom: 0
@@ -60,6 +67,7 @@ lifetime: 5
 fragBullet: {
 damage: 1
 lifetime: 40
+layer: 110
 }
 }
 }

@@ -1,11 +1,12 @@
 size: 3
-type: GenericCrafter
+type: GenericSmelter
 health: 800
 hasItems: true
 hasPower: true
 itemCapacity: 15
 solid: true
 destroyable: true
+flameColor: a4b8faff
 requirements: [
  silicon/200
  titanium/200

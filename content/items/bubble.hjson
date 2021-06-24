@@ -1,5 +1,5 @@
 name: "Bubble"
-color: ffffff
+color: d0d0e0ff
 description: "A very weak bubble. Used in few things, but easy to produce.
 It's a miracle these don't pop when on conveyors."
 research: {

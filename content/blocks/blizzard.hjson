@@ -1,5 +1,6 @@
 size: 2
 health: 610
+localizedName: Blizzard
 type: itemTurret
 range: 170
 reloadTime: 4
