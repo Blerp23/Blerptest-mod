@@ -23,19 +23,6 @@ inaccuracy: 15
 lifetime: 70
 cone: 13
 }
-status: {
-name: "Slimed"
-speedMultiplier: 0.7
-reloadMultiplier: 0.7
-effect: {
-type: ParticleEffect
-particles: 5
-length: 3
-lifetime: 35
-sizeFrom: 1
-sizeTo: 0
-colorTo: 1cad09
-}
 }
 }
 category: turret
