@@ -23,7 +23,6 @@ inaccuracy: 15
 lifetime: 70
 cone: 13
 }
-statusDuration: 300
 status: {
 name: "Slimed"
 speedMultiplier: 0.7
