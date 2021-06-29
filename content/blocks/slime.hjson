@@ -22,6 +22,29 @@ ammoTypes: {
   inaccuracy: 15
   lifetime: 70
   cone: 13
+  shootEffect: {
+  type: ParticleEffect
+  particles: 25
+  sizeFrom: 3
+  sizeTo: 0
+  length: 120
+  lifetime: 80
+  cone: 13
+  colorTo: 1cad09
+  }
+  status: {
+   name: "Slimed"
+   speedMultiplier: 0.7
+   reloadMultiplier: 0.7
+   effect: {
+   type: ParticleEffect
+   particles: 5
+   length: 3
+   lifetime: 35
+   sizeFrom: 1
+   sizeTo: 0
+   colorTo: 1cad09
+   }
  }
 }
 category: turret
