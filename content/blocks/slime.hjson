@@ -1,0 +1,45 @@
+type: itemTurret
+loaclizedName: Slime
+health: 320
+range: 150
+reloadTime: 2
+shootSound: splash
+inaccuracy: 15
+requirements: [
+copper/30
+]
+ammoTypes: {
+copper: {
+type: normalBulletType
+shootSound: splash
+speed: 2
+damage: 3
+reloadTime: 2
+width: 8
+height: 8
+frontColor: 1cad09
+backColor: 1cad09
+inaccuracy: 15
+lifetime: 70
+cone: 13
+}
+statusDuration: 300
+status: {
+name: "Slimed"
+speedMultiplier: 0.7
+reloadMultiplier: 0.7
+effect: {
+type: ParticleEffect
+particles: 5
+length: 3
+lifetime: 35
+sizeFrom: 1
+sizeTo: 0
+colorTo: 1cad09
+}
+}
+}
+category: turret
+research: {
+parent: copper
+}
