@@ -9,21 +9,20 @@ requirements: [
 copper/30
 ]
 ammoTypes: {
-copper: {
-type: normalBulletType
-shootSound: splash
-speed: 2
-damage: 3
-reloadTime: 2
-width: 8
-height: 8
-frontColor: 1cad09
-backColor: 1cad09
-inaccuracy: 15
-lifetime: 70
-cone: 13
-}
-}
+ copper: {
+  type: normalBulletType
+  shootSound: splash
+  speed: 2
+  damage: 3
+  reloadTime: 2
+  width: 8
+  height: 8
+  frontColor: 1cad09
+  backColor: 1cad09
+  inaccuracy: 15
+  lifetime: 70
+  cone: 13
+ }
 }
 category: turret
 research: {
