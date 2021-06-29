@@ -47,6 +47,7 @@ ammoTypes: {
    }
  }
 }
+}
 category: turret
 research: {
 parent: copper
