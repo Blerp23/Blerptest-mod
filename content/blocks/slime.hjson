@@ -38,7 +38,7 @@ ammoTypes: {
    reloadMultiplier: 0.7
    effect: {
    type: ParticleEffect
-   particles: 5
+   particles: 1
    length: 7
    lifetime: 35
    sizeFrom: 1
