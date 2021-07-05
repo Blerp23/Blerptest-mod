@@ -39,7 +39,7 @@ ammoTypes: {
    effect: {
    type: ParticleEffect
    particles: 5
-   length: 3
+   length: 7
    lifetime: 35
    sizeFrom: 1
    sizeTo: 0
