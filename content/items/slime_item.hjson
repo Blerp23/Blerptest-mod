@@ -1,5 +1,5 @@
 name: "Slimey Substance"
-color: 486acdff
+color: 28ad3f
 description: A squishy liquid(?) of machine origin..
 research: {
  parent: core-shard
