@@ -1,0 +1,28 @@
+size: 2
+type: GenericSmelter
+health: 110
+hasItems: true
+hasPower: true
+itemCapacity: 10
+solid: true
+destroyable: true
+requirements: [
+ graphite/30
+ lead/50
+ copper/20
+]
+consumes: {
+ items: {
+  items: [
+   {
+     item: graphite
+     amount: 2
+   }
+  ]
+ }
+}
+outputItem: slime_item/1
+craftEffect: impactsmoke
+craftTime: 75
+category: crafting
+research: slime
