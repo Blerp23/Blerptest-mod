@@ -9,7 +9,7 @@ requirements: [
 copper/30
 ]
 ammoTypes: {
- copper: {
+ slime_item: {
   type: normalBulletType
   shootSound: splash
   speed: 2
