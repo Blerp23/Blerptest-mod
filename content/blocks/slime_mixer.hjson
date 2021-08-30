@@ -25,11 +25,13 @@ colorFrom: 40ad4a
 colorTo: 40ad4a
 }
 consumes: {
-items: {
-{
-item: graphite
-amount: 2
-}
+ items: {
+  items: [
+   {
+     item: graphite
+     amount: 2
+   }
+]
 liquid: {
 liquid: water
 amount: 0.3
