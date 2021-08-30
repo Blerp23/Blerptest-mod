@@ -18,6 +18,10 @@ consumes: {
    {
      item: graphite
      amount: 2
+   },
+   {
+   item: lead
+   amount: 3
    }
   ]
  }
