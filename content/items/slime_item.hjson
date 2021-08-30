@@ -1,0 +1,12 @@
+name: "Slimey Substance"
+color: 486acdff
+description: A squishy liquid(?) of machine origin..
+research: {
+ parent: core-shard
+ requirements:
+ [
+  {item: titanium, amount: 800},
+  {item: graphite, amount: 300},
+  {item: copper, amount: 100}
+ ]
+}
