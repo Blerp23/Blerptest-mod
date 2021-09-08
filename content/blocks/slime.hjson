@@ -1,6 +1,7 @@
 type: itemTurret
 loaclizedName: Slime
 health: 320
+itemCapacity: 15
 range: 150
 reloadTime: 2
 shootSound: splash
@@ -15,7 +16,7 @@ ammoTypes: {
   shootSound: splash
   ammoMultiplier: 10
   speed: 4
-  damage: 3
+  damage: 4
   reloadTime: 2
   width: 8
   height: 8
