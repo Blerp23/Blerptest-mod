@@ -7,7 +7,7 @@ shootSound: splash
 inaccuracy: 15
 requirements: [
 copper/30
-slime/10  
+slime_item/10  
 ]
 ammoTypes: {
  slime_item: {
