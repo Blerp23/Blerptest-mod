@@ -13,6 +13,7 @@ ammoTypes: {
  slime_item: {
   type: normalBulletType
   shootSound: splash
+  ammoMultiplier: 5
   speed: 2
   damage: 3
   reloadTime: 2
