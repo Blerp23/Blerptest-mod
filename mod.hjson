@@ -1,8 +1,8 @@
 name: "test-mod"
-displayName: "BlerpTestMod"
-author: "Blerp23: creator, meep: small amount of content, adenator09: spriter"
+displayName: "Blerp's Content Mod"
+author: "Blerp23: creator, meep: small amount of content, adenator09: spriter (all of the bad sprites were probably made by Blerp23)"
 description: "Our first mod, we finally have a spriter  (We have a discord server, https://discord.gg/EEn5nWactX)"
-version: "0.94 Beta"
+version: "0.95 Beta"
 minGameVersion: "126.2"
 dependencies: [ ]
 hidden: false
