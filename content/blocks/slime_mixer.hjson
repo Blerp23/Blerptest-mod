@@ -30,4 +30,4 @@ outputItem: slime_item/1
 craftEffect: impactsmoke
 craftTime: 75
 category: crafting
-research: slime
+research: slime_item
