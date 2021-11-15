@@ -24,16 +24,16 @@ bullet: {
 	pierce: false
 	pierceBuilding: true
 	smokeEffect: {
-	sizeFrom: 5
-	type: WaveEffect
-	sizeTo: 250
-	lifetime: 15
-	colorTo: "00c3ff"
-	strokeFrom: 3
-	strokeTo: 1
-	},
-	maxRange: 80
-	statusDuration: 200
+		sizeFrom: 5
+		type: WaveEffect
+		sizeTo: 250
+		lifetime: 15
+		colorTo: "00c3ff"
+		strokeFrom: 3
+		strokeTo: 1
+		maxRange: 80
+		statusDuration: 200
+		}
 	status: {
 		name: "POW! You are dead! no big surprise."
 		disarm: true
