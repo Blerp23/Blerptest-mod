@@ -6,19 +6,20 @@ type: UnitFactory
 consumes: {
  power: 3
 }
-plans: [
- {
+plans: {
+ [
  unit: smol_tenk
  requirements: [
   {item: "silicon", amount: 25}
   {item: "lead", amount: 30}
   {item: "coal", amount: 10}
  ],
+ time: 320
+]
+},
 requirements: [
  {item: "silicon", amount: 100}
  {item: "graphite", amount: 70}
  {item: "coal", amount: 10}
-]
- time: 320
 ]
 category: units
