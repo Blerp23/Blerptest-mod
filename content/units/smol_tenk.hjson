@@ -1,7 +1,7 @@
 localizedName: "Smol Tenk"
 description: "What do you expect? It's a small tank."
 health: "90"
-type: ground
+type: mech
 flying: false
 speed: 1
 drag: 0.1
