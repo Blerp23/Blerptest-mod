@@ -1,6 +1,6 @@
 localizedName: "Smol Tenk"
-description: "What do you expect? It's a small tank."
-health: "90"
+description: "Uses a rapid firing autocannon against enemies."
+health: "160"
 armor: 2
 type: mech
 flying: false
@@ -11,7 +11,7 @@ weapons: [
  {
  name: "SmolTenkTurret"
  mirror: false
- reload: 3
+ reload: 5
  x: 0
  y: -2
  rotate: true
@@ -20,7 +20,7 @@ weapons: [
  bullet: {
   width: 2
   height: 13
-  damage: 7
+  damage: 8
   speed: 7
   lifetime: 25
  }
