@@ -10,6 +10,7 @@ rotateSpeed: 6
 weapons: [
  {
  name: none
+ shootSound: shoot
  mirror: false
  reload: 5
  x: 0
