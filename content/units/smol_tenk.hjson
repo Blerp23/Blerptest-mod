@@ -6,3 +6,18 @@ type: mech
 flying: false
 speed: 1
 drag: 0.1
+weapons: [
+ {
+ name: "SmolTenkTurret"
+ mirror: false
+ reload: 130
+ x: 0
+ y: -10
+ bullet: {
+  width: 2
+  height: 6
+  damage: 7
+  speed: 3
+ }
+ }
+]
