@@ -15,6 +15,7 @@ weapons: [
  x: 0
  y: -2
  rotate: true
+ rotateSpeed: 3
  bullet: {
   width: 4
   height: 25
