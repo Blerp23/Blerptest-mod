@@ -6,11 +6,12 @@ type: mech
 flying: false
 speed: 1
 drag: 0.1
+rotateSpeed: 1
 weapons: [
  {
  name: "SmolTenkTurret"
  mirror: false
- reload: 130
+ reload: 90
  x: 0
  y: -2
  rotate: true
