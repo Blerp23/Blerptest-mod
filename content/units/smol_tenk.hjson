@@ -6,7 +6,7 @@ type: mech
 flying: false
 speed: 1
 drag: 0.1
-rotateSpeed: 1
+rotateSpeed: 2
 weapons: [
  {
  name: "SmolTenkTurret"
