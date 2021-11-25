@@ -20,11 +20,11 @@ weapons: [
   height: 25
   damage: 7
   speed: 7
-  lifetime: 50
+  lifetime: 25
   fragBullet: {
    damage: 2
    speed: 2
-   lifetime: 4
+   lifetime: 12
    width: 4
    height: 4
   }
