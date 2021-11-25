@@ -13,12 +13,20 @@ weapons: [
  reload: 130
  x: 0
  y: -2
+ rotate: true
  bullet: {
   width: 4
   height: 25
   damage: 7
   speed: 7
-  lifetime: 100
+  lifetime: 50
+  fragBullet: {
+   damage: 2
+   speed: 3
+   lifetime: 7
+   width: 4
+   height: 4
+  }
  }
  }
 ]
