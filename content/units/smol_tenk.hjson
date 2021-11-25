@@ -11,7 +11,7 @@ weapons: [
  {
  name: "SmolTenkTurret"
  mirror: false
- reload: 90
+ reload: 50
  x: 0
  y: -2
  rotate: true
@@ -23,8 +23,8 @@ weapons: [
   lifetime: 50
   fragBullet: {
    damage: 2
-   speed: 3
-   lifetime: 7
+   speed: 2
+   lifetime: 4
    width: 4
    height: 4
   }
