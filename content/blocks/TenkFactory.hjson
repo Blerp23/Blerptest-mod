@@ -1,0 +1,18 @@
+localizedName: "Tenk Factory"
+description: "Makes ground combat tanks."
+health: 400
+size: 3
+type: UnitFactory
+consumes: {
+ power: 3
+}
+plans: {
+ unit: smol_tenk
+ requirements: [
+  {item: "silicon", amount: 25}
+  {item: "lead", amount: 30}
+  {item: "coal", amount: 10}
+ ],
+ time: 320
+}
+category: units
