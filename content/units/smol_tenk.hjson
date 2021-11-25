@@ -12,12 +12,13 @@ weapons: [
  mirror: false
  reload: 130
  x: 0
- y: -10
+ y: -2
  bullet: {
-  width: 2
-  height: 6
+  width: 10
+  height: 60
   damage: 7
-  speed: 3
+  speed: 7
+  lifetime: 10
  }
  }
 ]
