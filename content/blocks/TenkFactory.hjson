@@ -20,5 +20,5 @@ requirements: [
  {item: "coal", amount: 10}
 ]
  time: 320
-}
+]
 category: units
