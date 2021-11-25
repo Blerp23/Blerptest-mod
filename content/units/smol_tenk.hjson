@@ -14,11 +14,11 @@ weapons: [
  x: 0
  y: -2
  bullet: {
-  width: 10
-  height: 60
+  width: 4
+  height: 25
   damage: 7
   speed: 7
-  lifetime: 10
+  lifetime: 100
  }
  }
 ]
