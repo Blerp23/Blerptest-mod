@@ -11,12 +11,12 @@ weapons: [
  {
  name: "SmolTenkTurret"
  mirror: false
- reload: 5
+ reload: 3
  x: 0
  y: -2
  rotate: true
  rotateSpeed: 3
- inaccuracy: 2
+ inaccuracy: 6
  bullet: {
   width: 2
   height: 13
