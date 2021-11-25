@@ -11,14 +11,14 @@ weapons: [
  {
  name: "SmolTenkTurret"
  mirror: false
- reload: 10
+ reload: 5
  x: 0
  y: -2
  rotate: true
  rotateSpeed: 3
  bullet: {
-  width: 4
-  height: 25
+  width: 2
+  height: 13
   damage: 7
   speed: 7
   lifetime: 25
