@@ -2,7 +2,7 @@ name: "Spike"
 health: 210
 description: Guardian of the Blerp Republic Core. Builds and can easily repair blocks.
 speed: 5
-drag: 0.01
+drag: 0.04
 accel: 0.02
 type: flying
 canBuild: true
