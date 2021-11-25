@@ -18,12 +18,12 @@ weapons: [
  bullet: {
   width: 4
   height: 25
-  damage: 7
+  damage: 8
   speed: 7
   lifetime: 25
   fragBullet: {
-   damage: 2
-   speed: 2
+   damage: 3
+   speed: 3
    lifetime: 12
    width: 4
    height: 4
