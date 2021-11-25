@@ -1,2 +1,21 @@
 localizedName: "Smol TOnk"
-description: "Some people mess up the O."
+description: "Some people mess up the O.  Fires Armor Piercing Shells,"
+health: 700
+armor: 3
+speed: 0.7
+rotateSpeed: 2
+weapons: {
+ {
+  name: none
+  mirror: false
+  reload: 60
+  bullet: {
+   damage: 30
+   pierce: 3
+   pierceBuilding: true
+   pierceUnit: true
+   width: 4
+   height: 20
+  }
+ }
+}
