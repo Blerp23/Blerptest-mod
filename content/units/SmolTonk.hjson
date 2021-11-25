@@ -11,7 +11,7 @@ weapons: [
   reload: 60
   bullet: {
    damage: 30
-   pierce: 3
+   pierce: true
    pierceBuilding: true
    pierceUnit: true
    width: 4
