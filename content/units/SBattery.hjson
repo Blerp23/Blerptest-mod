@@ -13,6 +13,8 @@ weapons: [
  reload: 25
  inaccuracy: 10
  bullet: {
+  canHeal: true
+  healPercent: 5
   speed: 7
   width: 3
   height: 15
