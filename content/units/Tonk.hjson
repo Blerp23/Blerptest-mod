@@ -20,9 +20,10 @@ weapons: [
   inaccuracy: 15
   shootSound: artillery
   bullet: {
+   buildingDamage: 1
    speed: 5
-   damage: 3
-   splashDamage: 15
+   damage: 5
+   splashDamage: 25
    splashDamageRadius: 25
    hitEffect: {
     type: WaveEffect
