@@ -19,6 +19,7 @@ weapons: [
   lifetime: 26
   damage: 5
   frontColor: 02c208
+  hitSound: explode
   fragBullet: {
    speed: 4
    lifetime: 16
