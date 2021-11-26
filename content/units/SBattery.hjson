@@ -3,6 +3,8 @@ description: "Like the smol tenk, but support and rapid fire."
 health: 120
 armor: 1
 speed: 0.8
+type: mech
+flying: false
 weapons: {
  mirror: false
  x: 0
