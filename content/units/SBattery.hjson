@@ -23,6 +23,8 @@ weapons: [
    speed: 4
    lifetime: 16
    damage: 2
+   canHeal: true
+   healPercent: 4
   }
  }
 }
