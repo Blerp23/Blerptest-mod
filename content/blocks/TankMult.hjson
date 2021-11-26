@@ -24,3 +24,5 @@ requirements: [
  {item: thorium, amount: 650}
  {item: silicon, amount: 460}
 ]
+category: units
+research: TenkAdditive
