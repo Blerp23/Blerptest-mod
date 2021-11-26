@@ -65,6 +65,16 @@ weapons: [
     sizeTo: 0
     particles: 15
     length: 100
+   },
+   hitEffect: {
+    type: ParticleEffect
+    sizeFrom: 30
+    sizeTo: 0
+    length: 150
+    cone: 360
+    particles: 30
+    colorFrom: ff7b08
+    colorTo: 000000
    }
   }
  }
