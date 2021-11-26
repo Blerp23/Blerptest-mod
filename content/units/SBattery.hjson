@@ -10,15 +10,20 @@ weapons: [
  mirror: false
  x: 0
  y: 0
- reload: 1
+ reload: 25
  inaccuracy: 10
  bullet: {
-  speed: 7
+  speed: 10
   width: 3
   height: 15
-  lifetime: 25
-  damage: 1.5
+  lifetime: 20
+  damage: 5
   colorTo: 02c208
+  fragBullet: {
+   speed: 6
+   lifetime: 8
+   damage: 2
+  }
  }
 }
 ]
