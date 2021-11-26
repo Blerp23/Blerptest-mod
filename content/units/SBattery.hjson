@@ -30,6 +30,7 @@ weapons: [
    damage: 2
    canHeal: true
    healPercent: 4
+   collidesTeam: true
    backColor: 02c208
   }
  }
