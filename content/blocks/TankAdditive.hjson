@@ -19,5 +19,8 @@ requirements: [
  {item: lead, amount: 130}
  {item: silicon, amount: 100}
 ]
+upgrades: [
+ [smol_tenk, smol-tonk
+]
 category: units
 research: TenkFactory
