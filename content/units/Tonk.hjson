@@ -38,9 +38,9 @@ weapons: [
    damage: 1
    splashDamage: 3
    splashDamageRadius: 5
-   smokeEffect: {
+   hitEffect: {
     type: WaveEffect
-    lifetime: 100
+    lifetime: 25
     sizeFrom: 0
     sizeTo: 5
     strokeFrom: 10
