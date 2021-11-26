@@ -22,10 +22,11 @@ weapons: [
    lifetime: 40
     smokeEffect: {
      type: particleEffect
-     lifetime: 3
+     lifetime: 20
      colorTo: 000000
      sizeFrom: 3
      sizeTo: 0
+     cone: 25
     }
   }
  }
