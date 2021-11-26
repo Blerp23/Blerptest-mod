@@ -1,0 +1,35 @@
+localizedName: "Tonk"
+description: "Uses an AP/HE shell to penetrate targets and detonate fragile buildings."
+type: mech
+flying: false
+health: 850
+armor: 10
+speed: 0.5
+rotateSpeed: 1.8
+weapons: [
+ {
+  x: 0
+  y: 5
+  mirror: false
+  reload: 200
+  bullet: {
+   speed: 4
+   damage: 75
+   pierceUnit: false
+   pierceBuilding: true
+   splashDamage: 150
+   splashDamageRadius: 25
+   lifetime: 30
+  }
+ },
+ {
+  rotate: true
+  mirror: false
+  rotateSpeed: 5
+  x: 0
+  y: 10
+  bullet: {
+   speed: 2
+  }
+ }
+]
