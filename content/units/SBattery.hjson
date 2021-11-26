@@ -5,7 +5,8 @@ armor: 1
 speed: 0.8
 type: mech
 flying: false
-weapons: {
+weapons: [
+{
  mirror: false
  x: 0
  y: 0
@@ -18,6 +19,7 @@ weapons: {
   colorTo: 02c208
  }
 }
+]
 abilities: [
 {
 type: RepairFieldAbility
