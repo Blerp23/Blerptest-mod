@@ -9,7 +9,7 @@ rotateSpeed: 1.8
 weapons: [
  {
   x: 0
-  y: -10
+  y: -15
   mirror: false
   reload: 200
   shootSound: bigshot
@@ -41,7 +41,7 @@ weapons: [
   mirror: false
   rotateSpeed: 5
   x: 0
-  y: 10
+  y: 15
   reload: 9
   inaccuracy: 15
   shootSound: artillery
