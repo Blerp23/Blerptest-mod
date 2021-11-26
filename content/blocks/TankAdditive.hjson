@@ -20,7 +20,7 @@ requirements: [
  {item: silicon, amount: 100}
 ]
 upgrades: [
- [smol_tenk, smol-tonk
+ [smol_tenk, SmolTonk]
 ]
 category: units
 research: TenkFactory
