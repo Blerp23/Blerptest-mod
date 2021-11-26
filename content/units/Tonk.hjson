@@ -68,9 +68,9 @@ weapons: [
    },
    hitEffect: {
     type: ParticleEffect
-    sizeFrom: 30
+    sizeFrom: 15
     sizeTo: 0
-    length: 150
+    length: 50
     cone: 360
     particles: 30
     colorFrom: ff7b08
