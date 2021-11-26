@@ -38,7 +38,7 @@ weapons: [
    splashDamageRadius: 5
    explosionEffect: {
     type: WaveEffect
-    lifetime: 10
+    lifetime: 100
     sizeFrom: 0
     sizeTo: 5
     strokeFrom: 10
