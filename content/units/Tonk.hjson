@@ -17,18 +17,20 @@ weapons: [
    width: 5
    height: 30
    speed: 10
-   damage: 30
+   damage: 15
    pierceUnit: false
    pierceBuilding: true
-   splashDamage: 160
-   splashDamageRadius: 47
+   splashDamage: 116
+   splashDamageRadius: 40
    lifetime: 23
    smokeEffect: {
     type: ParticleEffect
     colorTo: 000000
-    lifetime: 30
+    lifetime: 120
     cone: 40
-    speed: 3
+    speed: 4
+    sizeFrom: 8
+    sizeTo: 0
    }
   }
  },
@@ -39,7 +41,6 @@ weapons: [
   x: 0
   y: 10
   reload: 10
-  shots: 2
   inaccuracy: 23
   shootSound: shoot
   bullet: {
