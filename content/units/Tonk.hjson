@@ -26,7 +26,7 @@ weapons: [
    smokeEffect: {
     type: ParticleEffect
     x: 0
-    y: 10
+    y: 20
     colorTo: 000000
     lifetime: 120
     cone: 25
@@ -43,7 +43,7 @@ weapons: [
   mirror: false
   rotateSpeed: 5
   x: 0
-  y: 16
+  y: 20
   reload: 9
   inaccuracy: 15
   shootSound: artillery
