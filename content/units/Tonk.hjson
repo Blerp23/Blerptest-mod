@@ -8,6 +8,32 @@ speed: 0.5
 rotateSpeed: 1.8
 weapons: [
  {
+  name: TonkFlak
+  layer: 1
+  rotate: true
+  mirror: false
+  rotateSpeed: 5
+  x: 0
+  y: 14
+  reload: 9
+  inaccuracy: 15
+  shootSound: artillery
+  bullet: {
+   speed: 5
+   damage: 3
+   splashDamage: 15
+   splashDamageRadius: 25
+   hitEffect: {
+    type: WaveEffect
+    lifetime: 25
+    sizeFrom: 0
+    sizeTo: 20
+    strokeFrom: 10
+    strokeTo: 0
+   }
+  }
+ },
+ {
   x: 0
   y: 0
   mirror: false
@@ -35,32 +61,6 @@ weapons: [
     sizeTo: 0
     particles: 15
     length: 100
-   }
-  }
- },
- {
-  name: TonkFlak
-  layer: 1
-  rotate: true
-  mirror: false
-  rotateSpeed: 5
-  x: 0
-  y: 14
-  reload: 9
-  inaccuracy: 15
-  shootSound: artillery
-  bullet: {
-   speed: 5
-   damage: 3
-   splashDamage: 15
-   splashDamageRadius: 25
-   hitEffect: {
-    type: WaveEffect
-    lifetime: 25
-    sizeFrom: 0
-    sizeTo: 20
-    strokeFrom: 10
-    strokeTo: 0
    }
   }
  }
