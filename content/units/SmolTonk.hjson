@@ -1,8 +1,10 @@
-localizedName: "Smol TOnk"
-description: "Some people mess up the O.  Fires Armor Piercing Shells,"
+localizedName: "Smol Tonk"
+description: "Some people mess up the O.  Fires Armor Piercing Shells."
 health: 700
 armor: 3
-speed: 0.7
+type: mech
+flying: false
+speed: 0.6
 rotateSpeed: 2
 weapons: [
  {
@@ -19,7 +21,7 @@ weapons: [
    width: 4
    height: 20
    speed: 9
-   lifetime: 40
+   lifetime: 20
     smokeEffect: {
      type: particleEffect
      lifetime: 20
