@@ -23,6 +23,7 @@ weapons: [
    height: 20
    speed: 9
    lifetime: 20
+   hitSound: pew
     smokeEffect: {
      type: particleEffect
      lifetime: 20
