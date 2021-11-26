@@ -13,13 +13,13 @@ weapons: [
   mirror: false
   reload: 200
   bullet: {
-   speed: 4
+   speed: 10
    damage: 75
    pierceUnit: false
    pierceBuilding: true
    splashDamage: 150
    splashDamageRadius: 25
-   lifetime: 30
+   lifetime: 50
   }
  },
  {
@@ -28,8 +28,21 @@ weapons: [
   rotateSpeed: 5
   x: 0
   y: 10
+  reload: 3
   bullet: {
-   speed: 2
+   speed: 5
+   damage: 1
+   cone: 30
+   splashDamage: 3
+   splashDamageRadius: 5
+   explosionEffect: {
+    type: WaveEffect
+    lifetime: 10
+    sizeFrom: 0
+    sizeTo: 5
+    strokeFrom: 10
+    strokeTo: 0
+   }
   }
  }
 ]
