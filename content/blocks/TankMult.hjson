@@ -1,2 +1,26 @@
 localizedName: "Tank Multiplicative"
 description: "Further upgrades combat tanks."
+health: 1100
+size: 5
+type: reconstructor
+constructTime: 30
+itemCapacity: 260
+consumes: {
+ power: 3.6
+  items: {
+   items: [
+    {item: silicon, amount: 130}
+    {item: titanium, amount: 80}
+    {item: metaglass, amount: 40}
+   ]
+ }
+},
+upgrades: [
+ [SmolTonk, Tonk]
+]
+requirements: [
+ {item: lead, amount: 660}
+ {item: titanium, amount: 350}
+ {item: thorium, amount: 650}
+ {item: silicon, amount: 460}
+]
