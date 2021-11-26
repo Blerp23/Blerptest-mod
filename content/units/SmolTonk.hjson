@@ -10,12 +10,12 @@ weapons: [
  {
   name: none
   mirror: false
-  reload: 110
+  reload: 170
   x: 0
   y: 0
   shootSound: artillery
   bullet: {
-   damage: 100
+   damage: 75
    pierce: true
    pierceBuilding: true
    pierceUnit: true
