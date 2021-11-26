@@ -42,13 +42,13 @@ weapons: [
   rotateSpeed: 5
   x: 0
   y: 10
-  reload: 10
-  inaccuracy: 23
+  reload: 9
+  inaccuracy: 15
   shootSound: artillery
   bullet: {
    speed: 5
    damage: 3
-   splashDamage: 12
+   splashDamage: 15
    splashDamageRadius: 25
    hitEffect: {
     type: WaveEffect
