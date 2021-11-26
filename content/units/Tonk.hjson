@@ -45,7 +45,7 @@ weapons: [
   mirror: false
   rotateSpeed: 5
   x: 0
-  y: 20
+  y: 14
   reload: 9
   inaccuracy: 15
   shootSound: artillery
