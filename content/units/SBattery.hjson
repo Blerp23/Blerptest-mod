@@ -1,0 +1,26 @@
+localizedName: "S. Tenk"
+description: "Like the smol tenk, but support and rapid fire."
+health: 120
+armor: 1
+speed: 0.8
+weapons: {
+ mirror: false
+ x: 0
+ y: 0
+ reload: 1
+ inaccuracy: 10
+ bullet: {
+  speed: 4
+  lifetime: 25
+  damage: 1.5
+  colorTo: 02c208
+ }
+}
+abilities: [
+{
+type: RepairFieldAbility
+reload: 100
+range: 100
+amount: 20
+}
+]
