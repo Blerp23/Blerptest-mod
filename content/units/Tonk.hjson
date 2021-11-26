@@ -13,6 +13,7 @@ weapons: [
   mirror: false
   reload: 200
   shootSound: bigshot
+  layer: 2
   bullet: {
    width: 5
    height: 30
@@ -39,6 +40,7 @@ weapons: [
  },
  {
   name: TonkFlak
+  layer: 1
   rotate: true
   mirror: false
   rotateSpeed: 5
