@@ -13,7 +13,7 @@ weapons: [
  x: 0
  y: 0
  reload: 25
- inaccuracy: 10
+ inaccuracy: 1
  bullet: {
   canHeal: true
   healPercent: 5
