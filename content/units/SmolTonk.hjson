@@ -8,11 +8,11 @@ weapons: [
  {
   name: none
   mirror: false
-  reload: 60
+  reload: 110
   x: 0
   y: 0
   bullet: {
-   damage: 90
+   damage: 100
    pierce: true
    pierceBuilding: true
    pierceUnit: true
@@ -20,6 +20,13 @@ weapons: [
    height: 20
    speed: 9
    lifetime: 40
+    smokeEffect: {
+     type: particleEffect
+     lifetime: 3
+     colorTo: 000000
+     sizeFrom: 3
+     sizeTo: 0
+    }
   }
  }
 ]
