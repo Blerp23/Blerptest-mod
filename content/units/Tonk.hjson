@@ -23,6 +23,13 @@ weapons: [
    splashDamage: 160
    splashDamageRadius: 47
    lifetime: 23
+   smokeEffect: {
+    type: ParticleEffect
+    colorTo: 000000
+    lifetime: 30
+    cone: 40
+    speed: 3
+   }
   }
  },
  {
