@@ -18,13 +18,14 @@ weapons: [
   height: 15
   lifetime: 26
   damage: 5
-  colorTo: 02c208
+  frontColor: 02c208
   fragBullet: {
    speed: 4
    lifetime: 16
    damage: 2
    canHeal: true
    healPercent: 4
+   backColor: 02c208
   }
  }
 }
