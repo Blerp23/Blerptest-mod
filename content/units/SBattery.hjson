@@ -1,5 +1,5 @@
 localizedName: "S. Tenk"
-description: "Like the smol tenk, but support and rapid fire."
+description: "Small support tank. Fires frag shells and repairs friendlies."
 health: 120
 armor: 1
 speed: 0.8
