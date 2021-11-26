@@ -13,6 +13,7 @@ weapons: [
   reload: 110
   x: 0
   y: 0
+  shootSound: artillery
   bullet: {
    damage: 100
    pierce: true
@@ -33,3 +34,4 @@ weapons: [
   }
  }
 ]
+research: smol_tenk
