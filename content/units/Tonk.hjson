@@ -36,6 +36,7 @@ weapons: [
   }
  },
  {
+  name: TonkFlak
   rotate: true
   mirror: false
   rotateSpeed: 5
