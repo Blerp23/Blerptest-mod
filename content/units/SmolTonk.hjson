@@ -9,6 +9,8 @@ weapons: [
   name: none
   mirror: false
   reload: 60
+  x: 0
+  y: 0
   bullet: {
    damage: 30
    pierce: true
@@ -16,6 +18,8 @@ weapons: [
    pierceUnit: true
    width: 4
    height: 20
+   speed: 4
+   lifetime: 65
   }
  }
 ]
