@@ -25,4 +25,4 @@ requirements: [
  {item: silicon, amount: 460}
 ]
 category: units
-research: TenkAdditive
+research: TankAdditive
