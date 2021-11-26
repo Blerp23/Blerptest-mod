@@ -9,7 +9,7 @@ rotateSpeed: 1.8
 weapons: [
  {
   x: 0
-  y: 5
+  y: -10
   mirror: false
   reload: 200
   bullet: {
