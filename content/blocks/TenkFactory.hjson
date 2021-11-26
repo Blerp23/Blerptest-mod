@@ -15,6 +15,15 @@ plans: [
   {item: "coal", amount: 10}
  ],
  time: 320
+},
+ {
+ unit: SBattery
+ requirements: [
+  {item: "silicon", amount: 30}
+  {item: "lead", amount: 30}
+  {item: "titaniun", amount: 10}
+ ],
+ time: 350
 }
 ],
 requirements: [
