@@ -1,6 +1,6 @@
 localizedName: "S. Tenk"
 description: "Small support tank. Fires frag shells and repairs friendlies."
-health: 120
+health: 150
 armor: 1
 speed: 0.8
 type: mech
@@ -13,15 +13,15 @@ weapons: [
  reload: 25
  inaccuracy: 10
  bullet: {
-  speed: 10
+  speed: 7
   width: 3
   height: 15
-  lifetime: 20
+  lifetime: 26
   damage: 5
   colorTo: 02c208
   fragBullet: {
-   speed: 6
-   lifetime: 8
+   speed: 4
+   lifetime: 16
    damage: 2
   }
  }
