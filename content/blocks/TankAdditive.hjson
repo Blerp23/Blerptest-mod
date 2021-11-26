@@ -1,0 +1,21 @@
+localizedName: "Tenk Additive"
+description: "Upgrades combat tanks like a normal reconstructor."
+health: 370
+size: 3
+itemCapacity: 80
+type: reconstructor
+constructTime: 10
+consumes: {
+ power: 5
+ items: {
+  {item: silicon, amount: 40}
+  {item: graphite, amount: 40}
+ }
+},
+requirements: [
+ {item: copper, amount: 200}
+ {item: lead, amount: 130}
+ {item: silicon, amount: 100}
+]
+category: units
+research: TenkFactory
