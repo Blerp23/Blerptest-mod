@@ -13,7 +13,9 @@ weapons: [
  reload: 1
  inaccuracy: 10
  bullet: {
-  speed: 4
+  speed: 7
+  width: 3
+  height: 15
   lifetime: 25
   damage: 1.5
   colorTo: 02c208
