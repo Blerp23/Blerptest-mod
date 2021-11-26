@@ -52,7 +52,7 @@ weapons: [
    damage: 15
    pierceUnit: false
    pierceBuilding: true
-   splashDamage: 116
+   splashDamage: 100
    splashDamageRadius: 40
    lifetime: 23
    smokeEffect: {
