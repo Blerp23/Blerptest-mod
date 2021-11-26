@@ -19,9 +19,9 @@ weapons: [
    damage: 30
    pierceUnit: false
    pierceBuilding: true
-   splashDamage: 200
-   splashDamageRadius: 30
-   lifetime: 30
+   splashDamage: 150
+   splashDamageRadius: 47
+   lifetime: 20
   }
  },
  {
