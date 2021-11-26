@@ -12,7 +12,7 @@ weapons: [
   y: -10
   mirror: false
   reload: 200
-  shootSound: artillery
+  shootSound: bigshot
   bullet: {
    width: 5
    height: 30
@@ -42,7 +42,7 @@ weapons: [
   y: 10
   reload: 10
   inaccuracy: 23
-  shootSound: shoot
+  shootSound: artillery
   bullet: {
    speed: 5
    damage: 3
