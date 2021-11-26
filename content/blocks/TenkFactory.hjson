@@ -21,7 +21,7 @@ plans: [
  requirements: [
   {item: "silicon", amount: 30}
   {item: "lead", amount: 30}
-  {item: "titaniun", amount: 10}
+  {item: "titanium", amount: 10}
  ],
  time: 350
 }
