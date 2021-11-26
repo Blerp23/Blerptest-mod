@@ -12,13 +12,13 @@ weapons: [
   x: 0
   y: 0
   bullet: {
-   damage: 30
+   damage: 90
    pierce: true
    pierceBuilding: true
    pierceUnit: true
    width: 4
    height: 20
-   speed: 4
+   speed: 15
    lifetime: 65
   }
  }
