@@ -2,6 +2,7 @@ localizedName: "Tonk"
 description: "Uses an AP/HE shell to penetrate targets and detonate fragile buildings."
 type: mech
 flying: false
+rotate: false
 health: 850
 armor: 10
 speed: 0.5
