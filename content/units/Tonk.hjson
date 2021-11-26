@@ -66,6 +66,7 @@ weapons: [
     particles: 15
     length: 100
    },
+   hitSound: bigexplosion
    hitEffect: {
     type: ParticleEffect
     sizeFrom: 15
