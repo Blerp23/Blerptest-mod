@@ -42,6 +42,8 @@ weapons: [
   reload: 200
   shootSound: bigshot
   layer: 2
+  rotate: true
+  rotateSpeed: 1.5
   bullet: {
    width: 5
    height: 30
