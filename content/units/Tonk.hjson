@@ -28,9 +28,10 @@ weapons: [
     colorTo: 000000
     lifetime: 120
     cone: 40
-    speed: 12
     sizeFrom: 8
     sizeTo: 0
+    particles: 15
+    length: 100
    }
   }
  },
