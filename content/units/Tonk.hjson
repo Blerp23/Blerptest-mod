@@ -19,7 +19,7 @@ weapons: [
    pierceBuilding: true
    splashDamage: 150
    splashDamageRadius: 25
-   lifetime: 50
+   lifetime: 30
   }
  },
  {
