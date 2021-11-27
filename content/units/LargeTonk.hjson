@@ -13,8 +13,8 @@ weapons: [
   mirror: true
   reload: 50
   inaccuracy: 7
+  range: 45
   bullet: {
-   range: 45
    type: ArtilleryBulletType
    speed: 2.5
    width: 5
