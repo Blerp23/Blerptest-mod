@@ -5,6 +5,7 @@ armor: 1
 speed: 0.8
 type: mech
 flying: false
+buildSpeed: 0.05
 weapons: [
 {
  canHeal: true
