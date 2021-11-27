@@ -20,8 +20,8 @@ weapons: [
     damage: 15
     splashDamage: 20
     splashDamageRadius: 25
-    homingPower: 0.4
-    homingRange: 25
+    homingPower: 0.3
+    homingRange: 100
     hitEffect: {
       type: ParticleEffect
       particles: 30
