@@ -14,7 +14,7 @@ weapons: [
   shots: 4
   inaccuracy: 15
   bullet: {
-    bulletType: missile
+    type: MissileBulletType
     speed: 3
     lifetime: 90
     damage: 15
