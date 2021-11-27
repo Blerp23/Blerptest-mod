@@ -12,7 +12,7 @@ weapons: [
   mirror: false
   reload: 100
   shots: 4
-  inaccuracy: 50
+  spacing: 15
   bullet: {
     type: MissileBulletType
     speed: 3.5
@@ -22,6 +22,7 @@ weapons: [
     splashDamageRadius: 25
     homingPower: 0.08
     homingRange: 150
+    hitShake: 1
     hitEffect: {
       type: ParticleEffect
       particles: 30
@@ -29,7 +30,7 @@ weapons: [
       sizeTo: 0
       lifetime: 75
       length: 30
-      colorFrom: ffe369
+      colorFrom: ffdb38
       colorTo: 000000
     }
    }
