@@ -10,12 +10,13 @@ faceTarget: false
 weapons: [
 {
 name: SmolTenkTurret
-x: 15
-y: -3
+x: 5
+y: -2.4
 mirror: true
 reload: 25
+shootSound: laser
 bullet: {
-bulletType: LaserBulletType
+type: LaserBulletType
 damage: 25
 range: 15
 }
