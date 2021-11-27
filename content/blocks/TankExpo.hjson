@@ -1,0 +1,34 @@
+localizedName: "Tank Exponential"
+description: "Upgrades ground tanks to the 4th tier."
+health: 1970
+size: 7
+type: reconstructor
+constructTime: 90
+itemCapacity: 1700
+liquidCapacity: 60
+consumes: {
+ power: 7.8
+  liquid: {
+   liquid: cryofluid
+   amount: 6
+  }
+  items: {
+   items: [
+    {item: silicon, amount: 850}
+    {item: titanium, amount: 750}
+    {item: plastanium, amount: 650}
+   ]
+ }
+},
+upgrades: [
+ [SmolTonk, Tonk]
+ [SAntiAir, SDefenseTank]
+]
+requirements: [
+ {item: lead, amount: 660}
+ {item: titanium, amount: 350}
+ {item: thorium, amount: 650}
+ {item: silicon, amount: 460}
+]
+category: units
+research: TankAdditive
