@@ -12,15 +12,16 @@ weapons: [
   mirror: false
   reload: 100
   shots: 4
-  inaccuracy: 15
+  spread: 15
+  inaccuracy: 5
   bullet: {
     type: MissileBulletType
     speed: 3.5
     lifetime: 75
-    damage: 15
-    splashDamage: 20
+    damage: 14
+    splashDamage: 19
     splashDamageRadius: 25
-    homingPower: 0.1
+    homingPower: 0.08
     homingRange: 300
     hitEffect: {
       type: ParticleEffect
