@@ -25,6 +25,7 @@ weapons: [
    damage: 5
    splashDamage: 25
    splashDamageRadius: 25
+   hitShake: 7
    hitEffect: {
     type: WaveEffect
     lifetime: 25
