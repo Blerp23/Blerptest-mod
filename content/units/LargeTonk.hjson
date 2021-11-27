@@ -13,7 +13,6 @@ weapons: [
   mirror: true
   reload: 50
   inaccuracy: 7
-  range: 45
   bullet: {
    type: ArtilleryBulletType
    speed: 2.5
@@ -22,6 +21,7 @@ weapons: [
    damage: 25
    splashDamage: 65
    splashDamageRadius: 15
+   lifetime: 100
   }
  }
 ]
