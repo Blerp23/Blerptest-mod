@@ -20,12 +20,22 @@ weapons: [
    speed: 2.5
    width: 5
    height: 7
-   damage: 30
-   splashDamage: 80
+   damage: 40
+   splashDamage: 100
    splashDamageRadius: 15
    lifetime: 150
    homingRange: 100
    homingPower: 0.01
+   hitSound: explosion
+   hitEffect: {
+    type: WaveEffect
+    sizeFrom: 0
+    sizeTo: 15
+    strokeFrom: 26
+    strokeTo: 0
+    colorFrom: fc9d03
+    colorTo: 000000
+   }
   }
  }
 ]
