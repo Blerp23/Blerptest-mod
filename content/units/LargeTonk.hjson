@@ -12,9 +12,9 @@ weapons: [
   y: 0
   mirror: true
   reload: 50
-  inaccuracy: 7
+  inaccuracy: 3
   shots: 2
-  spacing: 8
+  spacing: 3
   bullet: {
    type: ArtilleryBulletType
    speed: 2.5
