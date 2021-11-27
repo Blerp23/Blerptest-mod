@@ -26,6 +26,9 @@ weapons: [
     homingRange: 150
     hitShake: 5
     hitSound: boom
+    backColor: 28d428
+    collideTeam: true
+    healPercent: 7
     hitEffect: {
       type: ParticleEffect
       particles: 30
