@@ -12,8 +12,7 @@ weapons: [
   mirror: false
   reload: 100
   shots: 4
-  shootCone: 40
-  spread: 40
+  inaccuracy: 50
   bullet: {
     type: MissileBulletType
     speed: 3.5
