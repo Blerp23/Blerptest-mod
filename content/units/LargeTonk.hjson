@@ -8,9 +8,13 @@ speed: 0.3
 weapons: [
  {
   name: LTonkArtillery
+  x: 3
+  y: 0
+  mirror: true
   reload: 50
   inaccuracy: 7
   bullet: {
+   range: 45
    type: ArtilleryBulletType
    speed: 2.5
    width: 5
