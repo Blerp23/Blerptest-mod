@@ -23,7 +23,7 @@ weapons: [
    buildingDamage: 0.5
    speed: 5
    damage: 5
-   splashDamage: 25
+   splashDamage: 30
    splashDamageRadius: 25
    hitShake: 7
    hitEffect: {
@@ -53,8 +53,8 @@ weapons: [
    damage: 15
    pierceUnit: false
    pierceBuilding: true
-   splashDamage: 100
-   splashDamageRadius: 40
+   splashDamage: 200
+   splashDamageRadius: 25
    lifetime: 23
    hitShake: 15
    smokeEffect: {
