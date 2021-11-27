@@ -18,10 +18,12 @@ weapons: [
    speed: 2.5
    width: 5
    height: 7
-   damage: 25
-   splashDamage: 65
+   damage: 30
+   splashDamage: 80
    splashDamageRadius: 15
-   lifetime: 100
+   lifetime: 150
+   homingRange: 100
+   homingPower: 0.01
   }
  }
 ]
