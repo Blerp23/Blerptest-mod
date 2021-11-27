@@ -9,6 +9,7 @@ faceTarget: false
 weapons: [
  {
   name: LargeTonkTurret
+  rotate: true
   x: 0
   y: 0
   mirror: false
