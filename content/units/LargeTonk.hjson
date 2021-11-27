@@ -18,6 +18,7 @@ weapons: [
   shots: 2
   spacing: 3
   targetAir: false
+  rotateSpeed: 1
   bullet: {
    type: ArtilleryBulletType
    speed: 2.5
