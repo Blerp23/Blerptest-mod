@@ -26,7 +26,7 @@ weapons: [
    height: 7
    damage: 40
    splashDamage: 100
-   splashDamageRadius: 15
+   splashDamageRadius: 45
    lifetime: 150
    homingRange: 100
    homingPower: 0.01
