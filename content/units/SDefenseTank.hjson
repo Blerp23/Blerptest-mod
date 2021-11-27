@@ -18,7 +18,7 @@ cooldown: 100
 {
 type: UnitSpawnAbility
 spawnX: 0
-spawnY: -20
+spawnY: -10
 unit: gunboatdrone
 spawnTime: 600
 }
