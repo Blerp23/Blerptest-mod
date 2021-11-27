@@ -11,7 +11,7 @@ weapons: [
 {
 name: SmolTenkTurret
 x: 5
-y: -2.4
+y: -2.8
 mirror: true
 reload: 25
 shootSound: laser
