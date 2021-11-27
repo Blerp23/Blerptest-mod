@@ -29,7 +29,7 @@ weapons: [
       sizeTo: 0
       lifetime: 75
       length: 30
-      colorFrom: fc9003
+      colorFrom: ffe369
       colorTo: 000000
     }
    }
