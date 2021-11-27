@@ -23,7 +23,7 @@ weapons: [
     hitEffect: {
       type: ParticleEffect
       particles: 30
-      sizeFrom: 3
+      sizeFrom: 7
       sizeTo: 0
       lifetime: 100
       length: 20
