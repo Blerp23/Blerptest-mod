@@ -5,12 +5,13 @@ flying: false
 health: 8000
 armor: 10
 speed: 0.3
+faceTarget: false
 weapons: [
  {
   name: LargeTonkTurret
-  x: 3
+  x: 0
   y: 0
-  mirror: true
+  mirror: false
   reload: 50
   inaccuracy: 3
   shots: 2
