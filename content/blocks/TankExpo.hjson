@@ -21,8 +21,7 @@ consumes: {
  }
 },
 upgrades: [
- [SmolTonk, Tonk]
- [SAntiAir, SDefenseTank]
+ [Tonk, LargeTonk]
 ]
 requirements: [
  {item: lead, amount: 660}
