@@ -6,7 +6,6 @@ health: 680
 armor: 10
 speed: 0.5
 buildSpeed: 2
-
 abilities: [
 {
 type: ForceFieldAbility
@@ -18,7 +17,7 @@ cooldown: 100
 {
 type: UnitSpawnAbility
 spawnX: 0
-spawnY: -10
+spawnY: -7
 unit: gunboatdrone
 spawnTime: 600
 }
