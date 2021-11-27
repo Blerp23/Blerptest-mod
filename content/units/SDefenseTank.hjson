@@ -23,6 +23,7 @@ damage: 25
 range: 35
 frontColor: 39c72c
 backColor: 39c72c
+width: 5
 }
 }
 ]
