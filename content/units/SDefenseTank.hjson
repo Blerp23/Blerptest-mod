@@ -7,6 +7,20 @@ armor: 10
 speed: 0.5
 buildSpeed: 2
 faceTarget: false
+weapons: [
+{
+name: SmolTenkTurret
+x: 15
+y: -3
+mirror: true
+reload: 25
+bullet: {
+bulletType: LaserBulletType
+damage: 25
+range: 15
+}
+}
+]
 abilities: [
 {
 type: ForceFieldAbility
