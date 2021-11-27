@@ -5,6 +5,7 @@ armor: 3
 speed: 0.5
 type: mech
 flying: false
+buildSpeed: 1
 weapons: [
   {
   x: 0
