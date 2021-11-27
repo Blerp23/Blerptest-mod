@@ -10,7 +10,7 @@ consumes: {
  power: 7.8
   liquid: {
    liquid: cryofluid
-   amount: 6
+   amount: 1
   }
   items: {
    items: [
