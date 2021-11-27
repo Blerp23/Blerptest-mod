@@ -12,7 +12,7 @@ weapons: [
   mirror: false
   reload: 100
   shots: 4
-  spread: 15
+  spread: 30
   inaccuracy: 5
   bullet: {
     type: MissileBulletType
