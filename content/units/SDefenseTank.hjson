@@ -6,6 +6,7 @@ health: 680
 armor: 10
 speed: 0.5
 buildSpeed: 2
+faceTarget: false
 abilities: [
 {
 type: ForceFieldAbility
