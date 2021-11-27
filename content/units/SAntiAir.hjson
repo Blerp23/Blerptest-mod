@@ -16,12 +16,13 @@ weapons: [
   bullet: {
     bulletType: rocket
     speed: 3
-    lifetime: 40
+    lifetime: 90
     damage: 15
     splashDamage: 20
     splashDamageRadius: 25
     hitEffect: {
       type: ParticleEffect
+      particles: 20
       sizeFrom: 3
       sizeTo: 0
       lifetime: 100
