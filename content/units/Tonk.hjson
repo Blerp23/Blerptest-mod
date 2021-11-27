@@ -55,7 +55,7 @@ weapons: [
    splashDamage: 100
    splashDamageRadius: 40
    lifetime: 23
-   hitshake: 15
+   hitShake: 15
    smokeEffect: {
     type: ParticleEffect
     x: 0
