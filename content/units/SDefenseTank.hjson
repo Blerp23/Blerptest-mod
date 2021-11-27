@@ -15,10 +15,14 @@ y: -2.4
 mirror: true
 reload: 25
 shootSound: laser
+rotate: true
+rotateSpeed: 4
 bullet: {
 type: LaserBulletType
 damage: 25
-range: 15
+range: 35
+frontColor: 39c72c
+backColor: 39c72c
 }
 }
 ]
