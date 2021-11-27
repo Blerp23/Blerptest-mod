@@ -25,8 +25,8 @@ weapons: [
       particles: 30
       sizeFrom: 7
       sizeTo: 0
-      lifetime: 100
-      length: 20
+      lifetime: 75
+      length: 30
       colorFrom: fc9003
       colorTo: 000000
     }
