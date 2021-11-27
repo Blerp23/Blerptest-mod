@@ -38,3 +38,12 @@ weapons: [
    }
   }
 ]
+abilities: [
+{
+type: ForceFieldAbility
+radius: 40
+regen: 0.1
+max: 40
+cooldown: 60
+}
+]
