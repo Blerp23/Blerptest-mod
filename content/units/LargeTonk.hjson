@@ -1,2 +1,23 @@
 localizedName: "Large Tonk"
 description: "Fires long range artillery rounds."
+type: mech
+flying: false
+health: 8000
+armor: 10
+speed: 0.3
+weapons: [
+ {
+  name: LTonkArtillery
+  reload: 50
+  inaccuracy: 7
+  bullet: {
+   type: ArtilleryBulletType
+   speed: 2.5
+   width: 5
+   height: 7
+   damage: 25
+   splashDamage: 65
+   splashDamageRadius: 15
+  }
+ }
+]
