@@ -21,6 +21,7 @@ requirements: [
 ]
 upgrades: [
  [smol_tenk, SmolTonk]
+ [SBattery, SAntiAir]
 ]
 category: units
 research: TenkFactory
