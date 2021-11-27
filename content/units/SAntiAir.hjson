@@ -15,7 +15,7 @@ weapons: [
   inaccuracy: 15
   bullet: {
     type: MissileBulletType
-    speed: 5
+    speed: 3.5
     lifetime: 75
     damage: 15
     splashDamage: 20
