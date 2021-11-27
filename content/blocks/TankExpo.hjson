@@ -24,10 +24,12 @@ upgrades: [
  [Tonk, LargeTonk]
 ]
 requirements: [
- {item: lead, amount: 660}
- {item: titanium, amount: 350}
- {item: thorium, amount: 650}
- {item: silicon, amount: 460}
+ {item: lead, amount: 2000}
+ {item: titanium, amount: 2000}
+ {item: thorium, amount: 750}
+ {item: silicon, amount: 1000}
+ {item: plastanium, amount: 450}
+ {item: phase-fabric, amount: 600}
 ]
 category: units
 research: TankAdditive
