@@ -20,7 +20,7 @@ weapons: [
   inaccuracy: 15
   shootSound: artillery
   bullet: {
-   buildingDamage: 1
+   buildingDamage: 0.5
    speed: 5
    damage: 5
    splashDamage: 25
@@ -41,7 +41,7 @@ weapons: [
   y: 0
   mirror: false
   reload: 200
-  shootSound: bigshot
+  shootSound: corexplode
   layer: 2
   rotate: true
   rotateSpeed: 1.5
@@ -55,6 +55,7 @@ weapons: [
    splashDamage: 100
    splashDamageRadius: 40
    lifetime: 23
+   hitshake: 15
    smokeEffect: {
     type: ParticleEffect
     x: 0
