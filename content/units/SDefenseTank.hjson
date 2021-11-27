@@ -1,0 +1,25 @@
+localizedName: "S. Defense Tank"
+description: "Has high support and defensive properties. Produces smaller units."
+type: mech
+flying: false
+health: 680
+armor: 10
+speed: 0.5
+buildSpeed: 2
+
+abolities: [
+{
+type: ForceFieldAbility
+radius: 65
+regen: 0.3
+max: 125
+cooldown: 100
+},
+{
+type: UnitSpawnAbility
+spawnX: 0
+spawnY: -20
+unit: gunboatdrone
+spawnTime: 600
+}
+]
