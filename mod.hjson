@@ -1,8 +1,8 @@
 name: "test-mod"
 displayName: "Blerp's Content Mod"
 author: "Blerp23: creator, meep: small amount of content, adenator09: spriter (all of the bad sprites were probably made by Blerp23)"
-description: "Our first mod, we finally have a spriter  (We have a discord server, https://discord.gg/EEn5nWactX)"
-version: "0.95 Beta"
+description: "Our first mod, we finally have a spriter  (We have a discord server, https://discord.gg/EEn5nWactX) Most recent update: Tank tree T1-T3 for combat and support are complete"
+version: "0.98 Beta"
 minGameVersion: "126.2"
 dependencies: [ ]
 hidden: false
